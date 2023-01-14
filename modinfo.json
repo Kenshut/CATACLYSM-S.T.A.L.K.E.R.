@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ks_mod_STALKER",
+    "name": "S.T.A.L.K.E.R.",
+    "authors": [ "Kenshut" ],
+    "description": "Модификация по мотивам сталкера",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
