@@ -4,47 +4,19 @@
     "type": "map_extra",
     "name": { "str": "Аномалия электра" },
     "description": "Если ты это читаешь то ти плохой!",
-    "generator": { "generator_method": "map_extra_function", "generator_id": "mx_anom_electr" },
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_electr" },
     "sym": "o",
     "color": "red",
     "autonote": true
   },
   {
-    "type": "mapgen",
-    "method": "json",
-    "update_mapgen_id": "mx_anom_electr",
-    "object": {
-      "rows": [
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "           XXX          ",
-        "           XxX          ",
-        "           XXX          ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        "
-      ] ,
-	  "fields": { "X": { "field": "fd_shock_vent", "intensity": 3 } },
-	  
-	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
-	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
-      "items": { "x": { "item": "ks_Batar", "chance": 100 } }
-    }
+    "id": "mx_anom_tox",
+    "type": "map_extra",
+    "name": { "str": "Аномалия кислотное поле" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_tox" },
+    "sym": "o",
+    "color": "green",
+    "autonote": true
   }
 ]

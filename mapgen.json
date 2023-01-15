@@ -1,0 +1,84 @@
+[
+{
+    "id": "a_ks_Batar",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ [ "ks_Batar", 100 ] ]
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_electr",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+	  "fields": { "X": { "field": "fd_shock_vent", "intensity": 2 } },
+	  
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_Batar", "chance": 100 } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_tox",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+	  "fields": { "X": { "field": "fd_gas_vent", "intensity": 3 } },
+	  
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_Batar", "chance": 100 } }
+    }
+  }
+  ]
