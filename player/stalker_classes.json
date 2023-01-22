@@ -79,7 +79,7 @@
   {
     "type": "profession",
     "id": "Stalker_pr_mut",
-    "name": "Любитель аномалий",
+    "name": "Любитель мутантов",
     "description": "Вы очень любите изучай мутантов.",
     "points": 3,
 	"proficiencies": [ "prof_mutants" ],
