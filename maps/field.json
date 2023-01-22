@@ -1,0 +1,26 @@
+[{
+    "id": "fd_nuke_gas_vent",
+    "type": "field_type",
+    "legacy_enum_id": 16,
+    "intensity_levels": [ { "name": "gas vent" }, { "//": "repeat last entry" }, { "//": "repeat last entry" } ],
+    "description_affix": "under",
+    "wandering_field": "fd_nuke_gas",
+    "gas_absorption_factor": 15,
+    "dirty_transparency_cache": true,
+    "phase": "gas",
+    "display_items": false,
+    "display_field": true,
+    "looks_like": "fd_nuke_gas"
+  },
+  {
+    "id": "fd_hot_gas_vent",
+    "type": "field_type",
+    "legacy_enum_id": 16,
+    "intensity_levels": [ { "name": "gas vent" }, { "//": "repeat last entry" }, { "//": "repeat last entry" } ],
+    "description_affix": "under",
+    "wandering_field": "fd_hot_air3",
+    "dirty_transparency_cache": true,
+    "phase": "gas",
+    "display_items": false,
+    "display_field": false
+  }]

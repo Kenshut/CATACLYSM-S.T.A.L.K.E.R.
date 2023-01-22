@@ -1,0 +1,52 @@
+[
+  {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_af_balvanka",
+    "name": { "str": "браслет из артефакта (балванка)", "str_pl": "браслет из артефакта (балванка)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (балванка), радиоктивен, позволяет поднимать больше килограмм.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS", "intensity": 1 } ],"values": [{ "value": "CARRY_WEIGHT", "add": 2} ] } ]
+    }
+  },
+    {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_af_balvanka1",
+    "name": { "str": "браслет из артефактов (балванка)", "str_pl": "браслет из артефактов (балванка)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефактов (балванка), радиоктивен, позволяет поднимать больше килограмм.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS", "intensity": 1 } ],"values": [{ "value": "CARRY_WEIGHT", "add": 4} ] } ]
+    }
+  },
+  {
+    "id": "af_balvanka",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(балванка)","str_pl": "(балванка)" },
+    "description": "На внешний вид похож на болт.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }
+]

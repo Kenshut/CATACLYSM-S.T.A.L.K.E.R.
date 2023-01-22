@@ -1,0 +1,44 @@
+  [
+  {
+    "type": "effect_type",
+    "id": "RADMINUS",
+    "base_mods": { "rad_chance": [ 600 ], "rad_min": [ -1 ] },
+    "blood_analysis_description": "Аномальное воздействие на организм",
+    "rating": "good"
+  },
+    {
+    "type": "effect_type",
+    "id": "RADPLYS",
+    "base_mods": { "rad_chance": [ 600 ], "rad_min": [ 1 ] },
+    "blood_analysis_description": "Аномальное воздействие на организм",
+    "rating": "bad"
+  },
+      {
+    "type": "effect_type",
+    "id": "RADPLYS3",
+    "base_mods": { "rad_chance": [ 600 ], "rad_min": [ 3 ] },
+    "blood_analysis_description": "Аномальное воздействие на организм",
+    "rating": "bad"
+  },
+      {
+    "type": "effect_type",
+    "id": "RADMINUS3",
+    "base_mods": { "rad_chance": [ 600 ], "rad_min": [ -3 ] },
+    "blood_analysis_description": "Аномальное воздействие на организм",
+    "rating": "good"
+  },
+    {
+    "type": "effect_type",
+    "id": "RADMINUS2",
+    "base_mods": { "rad_chance": [ 600 ], "rad_min": [ -2 ] },
+    "blood_analysis_description": "Аномальное воздействие на организм",
+    "rating": "good"
+  },
+      {
+    "type": "effect_type",
+    "id": "RADPLYS2",
+    "base_mods": { "rad_chance": [ 600 ], "rad_min": [ 2 ] },
+    "blood_analysis_description": "Аномальное воздействие на организм",
+    "rating": "bad"
+  }
+  ]

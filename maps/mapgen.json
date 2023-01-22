@@ -1,0 +1,816 @@
+[
+{
+    "type": "monstergroup",
+    "name": "mon_stalker_Psevdogigantrofl",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_Psevdogigantrofl", "freq": 250, "cost_multiplier": 1, "pack_size": [ 1, 1 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "mon_stalker_Psevdogigant",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_Psevdogigant", "freq": 250, "cost_multiplier": 1, "pack_size": [ 1, 1 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "mon_stalker_himera1",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_himera", "freq": 250, "cost_multiplier": 1, "pack_size": [ 1, 2 ] }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "mon_stalker_barsic1",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_barsic", "freq": 250, "cost_multiplier": 1, "pack_size": [ 2, 4 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "mon_stalker_rat1",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_rat", "freq": 250, "cost_multiplier": 1, "pack_size": [ 2, 4 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "Mutants_dog",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_dog", "freq": 250, "cost_multiplier": 1, "pack_size": [ 2, 4 ] }
+    ]
+  },
+    {
+    "type": "monstergroup",
+    "name": "Mutants_dog1",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_psevdo_dog", "freq": 250, "cost_multiplier": 1, "pack_size": [ 2, 4 ] }
+    ]
+  },
+      {
+    "type": "monstergroup",
+    "name": "Mutants_tushkan",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_tushkan", "freq": 250, "cost_multiplier": 1, "pack_size": [ 4, 6 ] }
+    ]
+  },
+        {
+    "type": "monstergroup",
+    "name": "Mutants_tark",
+	"default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_stalker_horse", "freq": 250, "cost_multiplier": 1, "pack_size": [ 2, 4 ] }
+    ]
+  },
+{
+    "id": "a_ks_elect",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ [ "ks_Batar", 60 ],["af_electra_flash",10],["af_electra_sparkler",20],["craft_art",1],["af_balvanka",10] ]
+  },
+  {
+    "id": "a_ks_tox",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ [ "af_baloon", 5 ],["af_ameba_mica",10],["af_ameba_slime",20],["ks_af_glass",20],["craft_art",1],["af_balvanka",10] ]
+  },
+  {
+    "id": "a_ks_fire",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ [ "af_drops", 5 ],["af_fireball",5],["af_fireballs",5],["af_cristall",5],["af_cristalls",5],["af_dummy_glassbeads",5],["af_dummy_glassbead",5],["af_eye",5],["af_fire",5],["craft_art",1],["af_balvanka",10] ]
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_electr",
+    "object": {
+      "rows": [
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "     X                  ",
+        "          x             ",
+        "                X       ",
+        "                        ",
+        "                        ",
+        "           XXX          ",
+        "    X      XxX      X   ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "   X                 X  ",
+        "                        ",
+        "      x                 ",
+        "                  X     ",
+        "              x         ",
+        "                        ",
+        "     X                  ",
+        "                        ",
+        "                        "
+      ] ,
+	       "place_fields": [
+        { "field": "fd_shock_vent", "intensity": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 15, 20 ] },
+		{ "field": "fd_shock_vent", "intensity": 3, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 5 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_elect", "chance":  60} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_tox",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "      X            X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "            x      X    ",
+        "     X                  ",
+        "                        ",
+        "       x   XXX          ",
+        "           XxX          ",
+        "    X      XXX          ",
+        "                        ",
+        "                   x    ",
+        "   x                    ",
+        "                        ",
+        "                        ",
+        "                  X     ",
+        "            x           ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "   X                    ",
+        "                        "
+      ] ,
+	        "place_fields": [
+        { "field": "fd_gas_vent", "intensity": 1, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 15, 20 ] },
+		{ "field": "fd_gas_vent", "intensity": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 10, 15 ] },
+		{ "field": "fd_gas_vent", "intensity": 3, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 5, 6 ] }
+      ],
+
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 60} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_nuke_gas",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "      X            X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "            x      X    ",
+        "     X                  ",
+        "                        ",
+        "       x   XXX          ",
+        "           XxX          ",
+        "    X      XXX          ",
+        "                        ",
+        "                   x    ",
+        "   x                    ",
+        "                        ",
+        "                        ",
+        "                  X     ",
+        "            x           ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "   X                    ",
+        "                        "
+      ] ,
+	        "place_fields": [
+        { "field": "fd_nuke_gas_vent", "intensity": 1, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 15, 20 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 10, 15 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 3, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 5, 6 ] }
+      ],
+
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 70} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_dog",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "    X      XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                  X     ",
+        "                        ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "   X                    ",
+        "                        "
+      ] ,
+            "place_monsters": [
+        { "monster": "Mutants_dog1", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "Mutants_dog1", "chance": 10, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1 } }
+    }
+  },
+   {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_dog1",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "      X            X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "     X                  ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "    X      XXX          ",
+        "                        ",
+        "                   x    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                  X     ",
+        "                        ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "   X                    ",
+        "                        "
+      ] ,
+
+            "place_monsters": [
+        { "monster": "Mutants_dog", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "Mutants_dog", "chance": 10, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1 } }
+    }
+  },
+   {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_tushkan",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "     X                  ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+
+            "place_monsters": [
+        { "monster": "Mutants_tushkan", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "Mutants_tushkan", "chance": 10, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_Psevdogigantrofl",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "     X                  ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+
+            "place_monsters": [
+        { "monster": "mon_stalker_Psevdogigantrofl", "density": 0.05, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "mon_stalker_Psevdogigantrofl", "chance": 1, "density": 0.05, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_Psevdogigant",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "     X                  ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+
+            "place_monsters": [
+        { "monster": "mon_stalker_Psevdogigant", "density": 0.09, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "mon_stalker_Psevdogigant", "chance": 10, "density": 0.09, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_himera",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "     X                  ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "              !         ",
+        "                        ",
+        "                        ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+
+            "place_monsters": [
+        { "monster": "mon_stalker_himera1", "density": 0.4, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "mon_stalker_himera1", "chance": 10, "density": 0.4, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "monsters": { "!": { "monster": "GROUP_COFFEE_SHOP_ZOMBIE"} },
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_barsic",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "     X                  ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+
+            "place_monsters": [
+        { "monster": "mon_stalker_barsic1", "density": 0.6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "mon_stalker_barsic1", "chance": 10, "density": 0.6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_rat",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                   X    ",
+        "     X                  ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+
+            "place_monsters": [
+        { "monster": "mon_stalker_rat1", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "mon_stalker_rat1", "chance": 10, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_tark",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "           XXX          ",
+        "           XxX          ",
+        "           XXX          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ] ,
+            "place_monsters": [
+        { "monster": "Mutants_tark", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "Mutants_tark", "chance": 10, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 1} }
+    }
+  },
+   {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_nuke_gasdog",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "      X            X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "            x      X    ",
+        "     X                  ",
+        "                        ",
+        "       x   XXX          ",
+        "           XxX          ",
+        "    X      XXX          ",
+        "                        ",
+        "                   x    ",
+        "   x                    ",
+        "                        ",
+        "                        ",
+        "                  X     ",
+        "            x           ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "   X                    ",
+        "                        "
+      ] ,
+	        "place_fields": [
+        { "field": "fd_nuke_gas_vent", "intensity": 1, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 6 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 2 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 3, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 1 ] }
+      ],
+            "place_monsters": [
+        { "monster": "Mutants_dog1", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "Mutants_dog1", "chance": 35, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 20} }
+    }
+  },
+   {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_nuke_gasdog1",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "      X            X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "            x      X    ",
+        "     X                  ",
+        "                        ",
+        "       x   XXX          ",
+        "           XxX          ",
+        "    X      XXX          ",
+        "                        ",
+        "                   x    ",
+        "   x                    ",
+        "                        ",
+        "                        ",
+        "                  X     ",
+        "            x           ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "   X                    ",
+        "                        "
+      ] ,
+	        "place_fields": [
+        { "field": "fd_nuke_gas_vent", "intensity": 1, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 6 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 2 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 3, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 1 ] }
+      ],
+            "place_monsters": [
+        { "monster": "Mutants_dog", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "Mutants_dog", "chance": 35, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 10} }
+    }
+  },
+   {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_nuke_gastushkan",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "      X            X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "            x      X    ",
+        "     X                  ",
+        "                        ",
+        "       x   XXX          ",
+        "           XxX          ",
+        "    X      XXX          ",
+        "                        ",
+        "                   x    ",
+        "   x                    ",
+        "                        ",
+        "                        ",
+        "                  X     ",
+        "            x           ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "   X                    ",
+        "                        "
+      ] ,
+	        "place_fields": [
+        { "field": "fd_nuke_gas_vent", "intensity": 1, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 6 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 2 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 3, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 1 ] }
+      ],
+            "place_monsters": [
+        { "monster": "Mutants_tushkan", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "Mutants_tushkan", "chance": 35, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 5} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_nuke_gastark",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "      X            X    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "            x      X    ",
+        "     X                  ",
+        "                        ",
+        "       x   XXX          ",
+        "           XxX          ",
+        "    X      XXX          ",
+        "                        ",
+        "                   x    ",
+        "   x                    ",
+        "                        ",
+        "                        ",
+        "                  X     ",
+        "            x           ",
+        "    X                   ",
+        "                        ",
+        "                        ",
+        "   X                    ",
+        "                        "
+      ] ,
+	        "place_fields": [
+        { "field": "fd_nuke_gas_vent", "intensity": 1, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 6 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 2 ] },
+		{ "field": "fd_nuke_gas_vent", "intensity": 3, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 1 ] }
+      ],
+            "place_monsters": [
+        { "monster": "Mutants_tark", "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "Mutants_tark", "chance": 35, "density": 1, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+	  "terrain": {"X": [ "t_dirt" ], "x": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_tox", "chance": 5} }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_anom_fire",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "      X            X    ",
+        "           X            ",
+        "               X        ",
+        "    X                   ",
+        "            x      X    ",
+        "     X                  ",
+        "                X       ",
+        "           XxX          ",
+        "           xxX     X    ",
+        "    X      XXx  x       ",
+        "           x            ",
+        "                        ",
+        "           X            ",
+        "         X              ",
+        "                        ",
+        "                  X     ",
+        "                        ",
+        "    X              X    ",
+        "            X           ",
+        "                        ",
+        "   X         X          ",
+        "                        "
+      ] ,
+	        "place_fields": [
+        { "field": "fd_fire_vent", "intensity": 1, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 15, 20 ] },
+		{ "field": "fd_fire_vent", "intensity": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 10, 15 ] },
+		{ "field": "fd_hot_gas_vent","intensity": 4, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 600, 800 ] },
+		{ "field": "fd_fire_vent", "intensity": 3, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 15, 20 ] }
+      ],
+
+	  "terrain": {"X": [ "t_dirt" ] },
+	  "furniture": { "X": [ "f_null" ],"x": [ "f_null" ] },
+      "items": { "x": { "item": "a_ks_fire", "chance": 80} }
+    }
+  }
+  ]

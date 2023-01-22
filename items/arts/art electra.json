@@ -1,0 +1,58 @@
+[
+{
+    "id": "ks_Batar",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(батарейка)","str_pl": "(батарейки)" },
+    "description": "этот артефакт издаёт легкое гудение.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }, 
+  {
+    "id": "af_electra_dummy",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(Пустышка электрическая)","str_pl": "(Пустышка электрическая)" },
+    "description": "Два диска тёмно-синего цвета, соединённые полупрозрачной слизью. Артефакт постоянно до предела растягивается, после чего полностью складывается. Испускает маленькие электрические разряды, внутри в центре есть один постоянный.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }, 
+  {
+    "id": "af_electra_sparkler",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(Бенгальский огонь)","str_pl": "(Бенгальские огни)" },
+    "description": "Полупрозрачное желеобразное образование беспорядочной формы голубоватого цвета.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }, 
+  {
+    "id": "af_electra_flash",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(Вспышка)","str_pl": "(Вспышки)" },
+    "description": "Полупрозрачное сферическое образование, имеющее голубоватое свечение.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }
+]

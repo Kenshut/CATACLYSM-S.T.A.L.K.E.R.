@@ -1,0 +1,9 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_АРТЕФАКТЫ",
+    "recipe_subcategories": [
+      "CSC_ALL"
+    ]
+  }
+]

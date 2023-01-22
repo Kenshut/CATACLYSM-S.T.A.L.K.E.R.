@@ -1,0 +1,200 @@
+[
+      {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_dummy_dummy",
+    "name": { "str": "браслет из артефакта (Пустышка)", "str_pl": "браслет из артефакта (Пустышка)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Пустышка), урон от огня уменьшен.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [{ "value": "ARMOR_HEAT", "add": -2} ] } ]
+    }
+  },
+   {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_dummy_dummy1",
+    "name": { "str": "браслет из артефактов (Пустышка)", "str_pl": "браслет из артефаков (Пустышка)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефактов (Пустышка), урон от огня уменьшен.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [{ "value": "ARMOR_HEAT", "add": -3} ] } ]
+    }
+  },
+          {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_af_fire",
+    "name": { "str": "браслет из артефакта (Пламя)", "str_pl": "браслет из артефакта (Пламя)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Пламя), радиоктивен, но ваш организм начинает очень быстрее восстонавливатся.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+     "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS2", "intensity": 1 } ],"values": [{ "value": "REGEN_HP", "add": 6} ] } ]
+    }
+  },
+        {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_af_eye",
+    "name": { "str": "браслет из артефакта (глаз)", "str_pl": "браслет из артефакта (глаз)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (глаз), радиоктивен, но ваш организм начинает намного быстрее восстонавливатся.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+     "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS2", "intensity": 1 } ],"values": [{ "value": "REGEN_HP", "add": 4} ] } ]
+    }
+  },
+    {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_af_dummy_glassbead",
+    "name": { "str": "браслет из артефакта (Мамины бусинки)", "str_pl": "браслет из артефакта (Мамины бусинки)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Мамины бусинки), воспроизводит вокруг вас поле, замедляющее очень быстрые объекты.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [{ "value": "ARMOR_BULLET", "add": -1} ] } ]
+    }
+  },
+      {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_af_dummy_glassbeads",
+    "name": { "str": "браслет из артефакта (Мамины бусы)", "str_pl": "браслет из артефакта (Мамины бусы)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Мамины бусы), радиоктивен, но ваш организм начинает быстрее восстонавливатся.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+     "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS", "intensity": 1 } ],"values": [{ "value": "REGEN_HP", "add": 2} ] } ]
+    }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_drops",
+    "name": { "str": "браслет из артефакта (Капли)", "str_pl": "браслет из артефакта (Капли)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Капли), выводить радиацию, но организм быстрее устаёт.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADMINUS", "intensity": 1 } ],"values": [{ "value": "MAX_STAMINA", "add": -2000} ] } ]
+    }
+  },
+   {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_fireball",
+    "name": { "str": "браслет из артефакта (Огненный шар)", "str_pl": "браслет из артефакта (Огненный шар)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Огненный шар), выводить радиацию, но организм быстрее устаёт.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADMINUS2", "intensity": 1 } ],"values": [{ "value": "MAX_STAMINA", "add": -2000} ] } ]
+    }
+  },
+     {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_fireballs",
+    "name": { "str": "браслет из артефакта (Огненный шарик)", "str_pl": "браслет из артефакта (Огненный шарик)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Огненный шарик), радиоктивен, но ваше тело менее подверженно урону от огня.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS2", "intensity": 1 } ],"values": [{ "value": "ARMOR_HEAT", "add": -2} ] } ]
+    }
+  },
+     {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_acristall",
+    "name": { "str": "браслет из артефакта (Кристалл)", "str_pl": "браслет из артефакта (Кристалл)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Кристалл), выводить радиацию, но организм быстрее устаёт.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADMINUS3", "intensity": 1 } ],"values": [{ "value": "MAX_STAMINA", "add": -2000} ] } ]
+    }
+  },
+       {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_acristalls",
+    "name": { "str": "браслет из артефакта (Кристаллик)", "str_pl": "браслет из артефакта (Кристаллик)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Кристаллик), радиоктивен, но ваше тело менее подверженно урону от огня.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS", "intensity": 1 } ],"values": [{ "value": "ARMOR_HEAT", "add": -1} ] } ]
+    }
+  }
+]

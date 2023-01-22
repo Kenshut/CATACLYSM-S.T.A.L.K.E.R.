@@ -1,0 +1,12 @@
+[
+  {
+    "type": "tool_quality",
+    "id": "ks_ARTCRAFT",
+    "name": { "str": "Работа с артефактами" }
+  },
+    {
+    "type": "tool_quality",
+    "id": "ks_arts",
+    "name": { "str": "Работа с частями тел мутантов" }
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "skill_boost",
+    "stat": "int",
+    "skills": [ "workart"],
+    "skill_offset": -3,
+    "scaling_power": 0.4
+  }
+]

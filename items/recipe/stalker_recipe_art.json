@@ -1,0 +1,476 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "craft_art",
+    "category": "CC_АРТЕФАКТЫ",
+    "skill_used": "workart",
+    "difficulty": 2,
+    "time": 120000,
+	"autolearn": [ [ "workart", 0 ] ],
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" }
+    ],
+    "components": [ [ [ "ks_Batar", 2 ],[ "af_drops", 2 ],[ "af_ameba_mica", 2 ] ],[ [ "ks_Batar", 2 ],[ "af_drops", 2 ],[ "af_ameba_mica", 2 ] ],[ [ "ks_Batar", 2 ],[ "af_drops", 2 ],[ "af_ameba_mica", 2 ] ]  ] 
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "craft_art1",
+    "category": "CC_АРТЕФАКТЫ",
+    "skill_used": "workart",
+    "difficulty": 2,
+    "time": 660000,
+	"qualities": [ { "id": "ks_ARTCRAFT", "level": 1 } ],
+	"autolearn": [ [ "workart", 5 ] ],
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" }
+    ],
+    "components": [ [ [ "ks_Batar", 2 ],[ "af_drops", 2 ],[ "af_ameba_mica", 2 ] ],[ [ "ks_Batar", 2 ],[ "af_drops", 2 ],[ "af_ameba_mica", 2 ]],[ [ "craft_art", 1 ] ]  ] 
+  },
+    {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "craft_arts",
+    "category": "CC_АРТЕФАКТЫ",
+    "skill_used": "survival",
+    "difficulty": 4,
+	"autolearn": [ [ "survival", 2 ] ],
+    "time": 120000,
+    "components": [ [ [ "knife_combat",1 ],[ "knife_hunting",1],[ "knife_rambo",1],[ "knife_rm42",1],[ "knife_swissarmy",1],[ "makeshift_knife",1] ],[ [ "scrap", 60 ],[ "steel_chunk", 10 ],[ "steel_lump", 3 ] ]] 
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_batar",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 5 ] ],
+    "skill_used": "workart",
+    "difficulty": 6,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "ks_Batar", 1 ] ], [ [ "ks_eye_tark", 4 ] ] ]
+  },
+   {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_electra_dummy",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 4 ] ],
+    "skill_used": "workart",
+    "difficulty": 5,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_electra_dummy", 1 ] ], [ [ "ks_clav", 2 ] ] ]
+  },
+     {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_electra_dummy1",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 5 ] ],
+    "skill_used": "workart",
+    "difficulty": 6,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 2 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_electra_dummy", 2 ] ], [ [ "ks_clav", 2 ] ] ]
+  },
+       {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_sparkler",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 5 ] ],
+    "skill_used": "workart",
+    "difficulty": 6,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_electra_sparkler", 1 ] ], [ [ "ks_clav_bars", 2 ] ] ]
+  },
+         {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_flash",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 5 ] ],
+    "skill_used": "workart",
+    "difficulty": 6,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_electra_flash", 1 ] ], [ [ "ks_clav", 2 ] ] ]
+  },
+           {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_dummy_dummy",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 6 ] ],
+    "skill_used": "workart",
+    "difficulty": 7,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_dummy_dummy", 1 ] ], [ [ "ks_eye_tark", 2 ] ] ]
+  },
+             {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_dummy_dummy1",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 7 ] ],
+    "skill_used": "workart",
+    "difficulty": 8,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 2 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_dummy_dummy", 1 ] ], [ [ "ks_eye_tark", 4 ] ] ]
+  },
+               {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_af_fire",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 4 ] ],
+    "skill_used": "workart",
+    "difficulty": 5,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level":1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_fire", 1 ] ], [ [ "ks_eye_tark", 2 ] ] ]
+  },
+                 {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_af_eye",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 3 ] ],
+    "skill_used": "workart",
+    "difficulty": 4,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_eye", 1 ] ], [ [ "ks_eye_tark", 2 ] ] ]
+  },
+                   {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_af_dummy_glassbead",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 8 ] ],
+    "skill_used": "workart",
+    "difficulty": 9,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_dummy_glassbead", 1 ] ], [ [ "ks_arm_Psevdogigant", 1 ] ] ]
+  },
+                     {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_af_dummy_glassbead",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 3 ] ],
+    "skill_used": "workart",
+    "difficulty": 4,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_dummy_glassbead", 1 ] ], [ [ "ks_arm_Psevdogigant", 1 ] ] ]
+  },
+                       {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_af_dummy_glassbeads",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 2 ] ],
+    "skill_used": "workart",
+    "difficulty": 3,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_dummy_glassbeads", 1 ] ], [ [ "ks_tail_psevdo_dog", 3 ] ] ]
+  },
+                         {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_drops",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 2 ] ],
+    "skill_used": "workart",
+    "difficulty": 3,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_drops", 1 ] ], [ [ "ks_tail_rat", 3 ] ] ]
+  },
+                           {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_fireball",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 2 ] ],
+    "skill_used": "workart",
+    "difficulty": 3,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_fireball", 1 ] ], [ [ "ks_tail_dog", 5 ] ] ]
+  },
+                             {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_fireballs",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 2 ] ],
+    "skill_used": "workart",
+    "difficulty": 3,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_fireballs", 1 ] ], [ [ "ks_tail_dog", 5 ] ] ]
+  },
+                               {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_acristall",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 6 ] ],
+    "skill_used": "workart",
+    "difficulty": 7,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_cristall", 1 ] ], [ [ "ks_clav", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_acristalls",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 4 ] ],
+    "skill_used": "workart",
+    "difficulty": 5,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_cristalls", 1 ] ], [ [ "ks_tail_psevdo_dog", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_baloon",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 8 ] ],
+    "skill_used": "workart",
+    "difficulty": 9,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_baloon", 1 ] ] , [ [ "ks_eye_tark", 2 ] ]  , [ [ "ks_clav_bars", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_ameba_mica",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 5 ] ],
+    "skill_used": "workart",
+    "difficulty": 6,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_ameba_mica", 1 ] ], [ [ "ks_eye_tark", 2 ] ] ]
+  },
+    {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_ameba_slime",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 4 ] ],
+    "skill_used": "workart",
+    "difficulty": 5,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_ameba_slime", 1 ] ], [ [ "ks_tail_rat", 6 ] ] ]
+  },
+      {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_glass",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 9 ] ],
+    "skill_used": "workart",
+    "difficulty": 10,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "ks_af_glass", 1 ] ], [ [ "ks_tail_rat", 6 ] ], [ [ "ks_tail_psevdo_dog", 2 ] ], [ [ "ks_arm_Psevdogigant", 1 ] ] ]
+  },
+        {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_glassm",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 9 ] ],
+    "skill_used": "workart",
+    "difficulty": 10,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 2 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "ks_af_glass", 2 ] ], [ [ "ks_tail_dog", 6 ] ], [ [ "ks_tail_psevdo_dog", 4 ] ], [ [ "ks_arm_Psevdogigant", 1 ] ] ]
+  },
+        {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_af_balvanka",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 1 ] ],
+    "skill_used": "workart",
+    "difficulty": 2,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 1 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_balvanka", 1 ] ], [ [ "ks_tail_rat", 6 ] ] ]
+  }, 
+        {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_art_bracelet_af_balvanka1",
+    "category": "CC_АРТЕФАКТЫ",
+	"autolearn": [ [ "workart", 2 ] ],
+    "skill_used": "workart",
+    "difficulty": 3,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 2 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_balvanka", 2 ] ], [ [ "ks_tail_dog", 3 ] ] ]
+  }
+]

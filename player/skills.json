@@ -1,0 +1,12 @@
+[
+
+  {
+    "type": "skill",
+    "id": "workart",
+    "name": { "str": "Знание артефактов" },
+    "description": "Этот навык определяет уровень ваших познаний в сфере артефактов.",
+    "companion_industry_rank_factor": 1,
+    "display_category": "display_interaction",
+    "companion_skill_practice": [ { "skill": "menial", "weight": 10 }, { "skill": "construction", "weight": 20 } ]
+  }
+]

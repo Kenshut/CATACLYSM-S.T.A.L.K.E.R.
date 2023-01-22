@@ -1,0 +1,39 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "Tushkan",
+	"neutral": [ "insect","Tushkan"]
+  },
+    {
+    "type": "MONSTER_FACTION",
+    "name": "Tark",
+    "neutral": [ "Tark", "insect" ]
+  },
+   {
+    "type": "MONSTER_FACTION",
+    "name": "STRANRAT",
+    "neutral": [ "STRANRAT","insect" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "Psevdogigant",
+    "neutral": [ "Psevdogigant","insect" ]
+  },
+    {
+    "type": "MONSTER_FACTION",
+    "name": "Psevdogigantrofl",
+    "neutral": [ "Psevdogigantrofl","insect" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "Barsick",
+
+    "neutral": [ "Barsick" ,"insect" ]
+  },
+    {
+    "type": "MONSTER_FACTION",
+    "name": "himera",
+
+    "neutral": [ "himera" ,"insect" ]
+  }
+]

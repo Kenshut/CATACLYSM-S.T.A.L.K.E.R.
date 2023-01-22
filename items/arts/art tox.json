@@ -1,0 +1,59 @@
+[
+ 
+  {
+    "id": "ks_af_glass",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(Светляк)","str_pl": "(Светляки)" },
+    "description": "этот артефакт очень слабо светится.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }, 
+  {
+    "id": "af_baloon",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(Пузырь)","str_pl": "(Пузыри)" },
+    "description": "Артефакт представляет из себя несколько соединённых полых образований органической природы.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  },
+  {
+    "id": "af_ameba_mica",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(Слюда)","str_pl": "(Слюды)" },
+    "description": "Полупрозрачное желеобразное образование сферической формы с 6-ю симметрично расположенными впадинами.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  },
+  {
+    "id": "af_ameba_slime",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(Слизь)","str_pl": "(Слизи)" },
+    "description": "Полупрозрачное желеобразное образование беспорядочной формы коричневатого цвета..",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }
+]

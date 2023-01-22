@@ -1,0 +1,92 @@
+[
+  {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_baloon",
+    "name": { "str": "браслет из артефакта (Пузырь)", "str_pl": "браслет из артефакта (Пузырь)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Пузырь), выводить радиацию.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADMINUS2", "intensity": 1 } ] } ]
+    }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_ameba_mica",
+    "name": { "str": "браслет из артефакта (Слюда)", "str_pl": "браслет из артефакта (Слюда)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Слюда), даёт небольшую защиту от электричества.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ACID", "add": 1},{ "value": "ARMOR_HEAT", "add": 1},{ "value": "REGEN_HP", "add": 4} ] } ]
+    }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_ameba_slime",
+    "name": { "str": "браслет из артефакта (Слизь)", "str_pl": "браслет из артефакта (Слизь)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Слизь), даёт небольшую защиту от электричества.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+"passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ACID", "add": 1},{ "value": "ARMOR_HEAT", "add": 1},{ "value": "REGEN_HP", "add": 2} ] } ]
+    }
+  },
+    {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_glassm",
+    "name": { "str": "браслет из артефактов (Светляк)", "str_pl": "браслет из артефактов (Светляк)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Светляк), немного помогает организму.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "add": 1} ] } ]
+    }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "ks_art_bracelet_glass",
+    "name": { "str": "браслет из артефакта (Светляк)", "str_pl": "браслет из артефакта (Светляк)" },
+	"weight": "100 g",
+    "volume": "250 ml",
+    "price": 20000,
+    "to_hit": -1,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 0,
+    "description": "Браслет сделанный из артефакта (Светляк), немного помогает организму.",
+    "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "REGEN_HP", "add": 1} ] } ]
+    }
+  }
+]

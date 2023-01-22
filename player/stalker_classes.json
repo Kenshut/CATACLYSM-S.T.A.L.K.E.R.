@@ -1,0 +1,131 @@
+[
+  {
+    "type": "profession",
+    "id": "Stalker_pr_novice",
+    "name": "Сталкер новичок",
+    "description": "Сталкерок новичок.",
+    "points": 0,
+    "skills": [
+      { "level": 1, "name": "survival" },
+      { "level": 1, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants", "mocassins"],
+        "entries": [
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makeshift_knife"},
+		  { "item": "makarov", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "Stalker_pr_norm",
+    "name": "Опытный сталкер",
+    "description": "Сталкерок.",
+    "points": 3,
+    "skills": [
+      { "level": 1, "name": "survival" },
+	  { "level": 1, "name": "gun" },
+      { "level": 1, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "bandana","stalker_gloves","stalker_jacket","stalker_pants", "mocassins"],
+        "entries": [
+		  { "item": "uzimag_25rd", "ammo-item": "9mm", "charges": 25 },
+		  { "item": "uzimag_25rd", "ammo-item": "9mm", "charges": 25 },
+		  { "item": "knife_hunting"},
+		  { "item": "uzi", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "Stalker_pr_art",
+    "name": "Любитель аномалий",
+    "description": "Вы очень любите изучай аномалии и артефакты.",
+    "points": 4,
+	"proficiencies": [ "prof_arts" ],
+    "skills": [
+      { "level": 1, "name": "survival" },
+	  { "level": 1, "name": "gun" },
+	  { "level": 3, "name": "workart" },
+      { "level": 1, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "bandana","stalker_gloves","stalker_jacket","stalker_pants", "mocassins", "ks_art_bracelet_glassm", "ks_art_bracelet_glass"],
+        "entries": [
+		  { "item": "uzimag_25rd", "ammo-item": "9mm", "charges": 25 },
+		  { "item": "uzimag_25rd", "ammo-item": "9mm", "charges": 25 },
+		  { "item": "knife_hunting"},
+		  { "item": "uzi", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "Stalker_pr_mut",
+    "name": "Любитель аномалий",
+    "description": "Вы очень любите изучай мутантов.",
+    "points": 3,
+	"proficiencies": [ "prof_mutants" ],
+    "skills": [
+      { "level": 4, "name": "survival" },
+	  { "level": 1, "name": "gun" },
+      { "level": 1, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "bandana","stalker_gloves","stalker_jacket","stalker_pants", "mocassins", "ks_art_bracelet_glassm"],
+        "entries": [
+		  { "item": "uzimag_25rd", "ammo-item": "9mm", "charges": 25 },
+		  { "item": "uzimag_25rd", "ammo-item": "9mm", "charges": 25 },
+		  { "item": "knife_hunting"},
+		  { "item": "uzi", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "Stalker_pr_pets",
+    "name": "Сталкер с тушканом",
+    "description": "Вы спокойно шли в бар 100 ренген, как вдруг к вам в руки запригивает тушканчик. На удивление он проявил к вам симпятию и вы решили оставить его как питомца.",
+    "points": 3,
+    "skills": [
+      { "level": 1, "name": "survival" },
+      { "level": 1, "name": "firstaid" }
+    ],
+	"pets": [ { "name": "mon_stalker_tushkan", "amount": 1 } ],
+   "items": {
+      "both": {
+        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants","mocassins"],
+        "entries": [
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makeshift_knife"},
+		  { "item": "makarov", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "mx_anom_electr",
+    "type": "map_extra",
+    "name": { "str": "Аномалия электра" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_electr" },
+    "sym": "o",
+    "color": "red",
+    "autonote": false
+  },
+  {
+    "id": "mx_anom_rat",
+    "type": "map_extra",
+    "name": { "str": "группа Странных крыс" },
+    "description": "Замечена группа Странных крыс",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_rat" },
+    "sym": "o",
+    "color": "red",
+    "autonote": true
+  },
+  {
+    "id": "mx_anom_barsic",
+    "type": "map_extra",
+    "name": { "str": "группа Барсиков" },
+    "description": "Замечена группа Барсиков",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_barsic" },
+    "sym": "o",
+    "color": "red",
+    "autonote": true
+  },
+  {
+    "id": "mx_anom_himera",
+    "type": "map_extra",
+    "name": { "str": "Аномалия электра1111" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_himera" },
+    "sym": "o",
+    "color": "red",
+    "autonote": false
+  },
+  {
+    "id": "mx_anom_Psevdogigant",
+    "type": "map_extra",
+    "name": { "str": "Аномалия электра1" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_Psevdogigant" },
+    "sym": "o",
+    "color": "red",
+    "autonote": false
+  },
+  {
+    "id": "mx_anom_Psevdogigantrofl",
+    "type": "map_extra",
+    "name": { "str": "Аномалия электра11" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_Psevdogigantrofl" },
+    "sym": "o",
+    "color": "red",
+    "autonote": false
+  },
+  {
+    "id": "mx_anom_nuke_gas",
+    "type": "map_extra",
+    "name": { "str": "Аномалия радиоктивный туман" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_nuke_gas" },
+    "sym": "o",
+    "color": "white",
+    "autonote": false
+  },
+    {
+    "id": "mx_anom_fire",
+    "type": "map_extra",
+    "name": { "str": "Аномалия жарка" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_fire" },
+    "sym": "o",
+    "color": "white",
+    "autonote": false
+  },
+  {
+    "id": "mx_anom_tushkan",
+    "type": "map_extra",
+    "name": { "str": "Тушканы" },
+    "description": "Тут были замечены тушканы!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_tushkan" },
+    "sym": "o",
+    "color": "white",
+    "autonote": true
+  },
+      {
+    "id": "mx_anom_tark",
+    "type": "map_extra",
+    "name": { "str": "Тарки" },
+    "description": "Тут были замечены тарки!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_tark" },
+    "sym": "o",
+    "color": "white",
+    "autonote": true
+  },
+      {
+    "id": "mx_anom_dog1",
+    "type": "map_extra",
+    "name": { "str": "Слепые псы" },
+    "description": "Тут были замечены слепые псы!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_dog1" },
+    "sym": "o",
+    "color": "white",
+    "autonote": true
+  },
+      {
+    "id": "mx_anom_dog",
+    "type": "map_extra",
+    "name": { "str": "Псевдо собаки" },
+    "description": "Тут были замечены псевдо собаки!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_dog" },
+    "sym": "o",
+    "color": "white",
+    "autonote": true
+  },
+      {
+    "id": "mx_anom_nuke_gastushkan",
+    "type": "map_extra",
+    "name": { "str": "Тушканы" },
+    "description": "Тут были замечены тушканы!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_nuke_gastushkan" },
+    "sym": "o",
+    "color": "white",
+    "autonote": true
+  },
+      {
+    "id": "mx_anom_nuke_gastark",
+    "type": "map_extra",
+    "name": { "str": "Тарки" },
+    "description": "Тут были замечены тарки!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_nuke_gastark" },
+    "sym": "o",
+    "color": "white",
+    "autonote": true
+  },
+      {
+    "id": "mx_anom_nuke_gasdog1",
+    "type": "map_extra",
+    "name": { "str": "Слепые псы" },
+    "description": "Тут были замечены слепые псы!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_nuke_gasdog1" },
+    "sym": "o",
+    "color": "white",
+    "autonote": true
+  },
+      {
+    "id": "mx_anom_nuke_gasdog",
+    "type": "map_extra",
+    "name": { "str": "Псевдо собаки" },
+    "description": "Тут были замечены псевдо собаки!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_nuke_gasdog" },
+    "sym": "o",
+    "color": "white",
+    "autonote": true
+  },
+  {
+    "id": "mx_anom_tox",
+    "type": "map_extra",
+    "name": { "str": "Аномалия кислотное поле" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_tox" },
+    "sym": "o",
+    "color": "green",
+    "autonote": true
+  }
+]
