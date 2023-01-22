@@ -1,9 +1,0 @@
-[
-  {
-    "type": "SCENARIO_BLACKLIST",
-    "subtype": "whitelist",
-    "scenarios": [
-      "Stalker_scenario"
-    ]
-  }
-]
