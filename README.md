@@ -3,7 +3,7 @@
 "Cataclysm: S.T.A.L.K.E.R." Это преображение обычного "катаклизма: темные дни в переди" в мир с талкерской тематикой
 
 <a>
-    <img src="https://raw.githubusercontent.com/Kenshut/Cataclysm-Last-days/main/stal.png?token=GHSAT0AAAAAAB4L7DFACC5ZJBBH6MVG2Z4OY6QDT2A" alt="Packaging Status" align="right">
+    <img src="https://raw.githubusercontent.com/Kenshut/CATACLYSM-S.T.A.L.K.E.R./main/stal.png" alt="Packaging Status" align="right">
 </a>
 
 #### Что сделанно
