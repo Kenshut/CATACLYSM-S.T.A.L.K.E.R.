@@ -1,6 +1,6 @@
 # Cataclysm: S.T.A.L.K.E.R.
 
-"Cataclysm: S.T.A.L.K.E.R." Это преображение обычного "катаклизма: темные дни в переди" в мир с талкерской тематикой
+"Cataclysm: S.T.A.L.K.E.R." Это преображение обычного "катаклизма: темные дни в переди" в мир с сталкерской тематикой
 
 <a>
     <img src="https://raw.githubusercontent.com/Kenshut/CATACLYSM-S.T.A.L.K.E.R./main/stal.png" alt="Packaging Status" align="right">
