@@ -101,6 +101,8 @@
     "name": { "str": "Тушкан" },
     "description": "Тушкан — маленькое крысоподобное существо, передвигающиеся на двух лапах.",
     "default_faction": "Tushkan",
+	  "anger_triggers": [ "FRIEND_DIED","FRIEND_ATTACKED" ],
+	"fear_triggers": [ "SOUND", "FRIEND_DIED","PLAYER_CLOSE" ],
     "bodytype": "rat",
     "categories": [ "CLASSIC" ],
     "species": [  "MUTANT" ],
