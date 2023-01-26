@@ -7,7 +7,7 @@
     <img src="https://raw.githubusercontent.com/Kenshut/CATACLYSM-S.T.A.L.K.E.R./main/stal.png" alt="Packaging Status" align="right">
 </a>
 
-# Что сделанно
+# Что сделано 
 
 Добавлены аномалии (Токсичная, термическая, электрическая )
 
