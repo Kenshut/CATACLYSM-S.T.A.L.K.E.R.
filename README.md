@@ -10,6 +10,7 @@
 # где можно узнать процесс разработки мода?
 
 В данный момент я обитаю на сервере дискорда MeatFly
+
 Ссылка на MeatFly https://www.youtube.com/@MeatFlyOriginal/videos
 
 Ссылка на дискорд сервер https://discord.gg/tCUuhzjy
