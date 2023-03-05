@@ -1,9 +1,16 @@
 [
   {
     "type": "recipe_category",
-    "id": "CC_АРТЕФАКТЫ",
+    "id": "CC_СТАЛКЕР",
     "recipe_subcategories": [
-      "CSC_ALL"
+      "CSC_ALL",
+	  "CSC_СТАЛКЕР_ИНСТРУМЕНТЫ",
+	  "CSC_СТАЛКЕР_WEAPON",
+	  "CSC_СТАЛКЕР_AMMO",
+	  "CSC_СТАЛКЕР_CBM",
+	  "CSC_СТАЛКЕР_ЭЛЕКТРОНИКА",
+	  "CSC_СТАЛКЕР_ДЕТАЛИ",
+	  "CSC_СТАЛКЕР_АРТЕФАКТЫ"
     ]
   }
 ]

@@ -1,0 +1,22 @@
+[
+{
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "boltgun",
+    "category": "CC_СТАЛКЕР",
+	"subcategory": "CSC_СТАЛКЕР_WEAPON",
+	"autolearn": [ [ "workart", 4 ] ],
+	"skill_used": "fabrication",
+	"skills_required": [ "workart", 4 ],
+    "difficulty": 4,
+    "time": 2400000,
+	    "proficiencies": [
+      { "proficiency": "prof_arts" },
+	  { "proficiency": "prof_arts2" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [ { "id": "ks_ARTCRAFT", "level": 2 },{ "id": "ks_arts", "level": 1 } ],
+    "components": [ [ [ "af_magnetick", 2 ] ], [ [ "ks_clav_bars", 4 ] ], [ [ "af_metal", 6 ] ] ]
+  }
+]

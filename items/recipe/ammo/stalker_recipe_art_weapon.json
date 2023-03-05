@@ -1,0 +1,32 @@
+[
+
+       {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_bolt",
+    "category": "CC_СТАЛКЕР",
+	"subcategory": "CSC_СТАЛКЕР_AMMO",
+	"autolearn": [ [ "fabrication", 2 ] ],
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_blacksmithing"}
+    ],
+	"using": [ [ "forging_standard", 2 ], [ "steel_standard", 1 ] ],
+    "qualities": [ { "id": "ANVIL", "level": 2 }, { "id": "HAMMER", "level": 2 }, { "id": "CHISEL", "level": 2 } ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "ks_combatbolt",
+    "category": "CC_СТАЛКЕР",
+	"subcategory": "CSC_СТАЛКЕР_AMMO",
+	"autolearn": [ [ "fabrication", 2 ] ],
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": 120000,
+	"tools": [ [ [ "electrolysis_kit", 200 ] ], [ [ "copper", -1 ] ] ],
+    "components": [ [ [ "ks_bolt", 100 ] ] ]
+  }
+]

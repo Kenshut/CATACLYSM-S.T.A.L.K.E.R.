@@ -1,0 +1,41 @@
+[
+
+       {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "barsik_knife",
+    "category": "CC_СТАЛКЕР",
+	"subcategory": "CSC_СТАЛКЕР_WEAPON",
+	"autolearn": [ [ "survival", 4 ] ],
+    "skill_used": "fabrication",
+	"skills_required": [ "survival", 4 ],
+    "difficulty": 4,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_carving" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [{ "id": "ks_arts", "level": 1 },{ "id": "CUT", "level": 1 }, { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [  [ "2x4", 1 ], [ "stick", 1 ]  ], [ [ "ks_clav_bars", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "himera_knife",
+    "category": "CC_СТАЛКЕР",
+	"subcategory": "CSC_СТАЛКЕР_WEAPON",
+	"autolearn": [ [ "survival", 5 ] ],
+    "skill_used": "fabrication",
+	"skills_required": [ "survival", 5 ],
+    "difficulty": 5,
+    "time": 120000,
+	    "proficiencies": [
+      { "proficiency": "prof_carving" },
+      { "proficiency": "prof_mutants" },
+      { "proficiency": "prof_mutants2"}
+    ],
+    "qualities": [{ "id": "ks_arts", "level": 1 },{ "id": "CUT", "level": 1 }, { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "2x4", 1 ], [ "stick", 1 ] ], [ [ "ks_clav", 2 ] ] ]
+  }
+]
