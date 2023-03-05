@@ -1,0 +1,210 @@
+[
+  {
+    "id": "bio_st_armor_arms",
+    "type": "bionic",
+    "name": { "str": "Броня О-Сознания для рук" },
+    "description": "Броня от О-сознания для рук, создана из артефактного материала (Металючька).",
+    "occupied_bodyparts": [ [ "arm_l", 4 ], [ "arm_r", 4 ] ],
+    "bash_protec": [ [ "arm_l", 10 ], [ "arm_r", 10 ] ],
+    "cut_protec": [ [ "arm_l", 10 ], [ "arm_r", 10 ] ],
+    "bullet_protec": [ [ "arm_l", 10 ], [ "arm_r", 10 ] ],
+	 "social_modifiers": { "intimidate": 10 },
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_st_armor_eyes",
+    "type": "bionic",
+    "name": { "str": "Броня О-Сознания для глаз" },
+    "description": "Броня от О-сознания для глаз, создана из артефактного материала (Металючька).",
+    "occupied_bodyparts": [ [ "eyes", 2 ] ],
+    "env_protec": [ [ "eyes", 14 ] ],
+    "bash_protec": [ [ "eyes", 6 ] ],
+    "cut_protec": [ [ "eyes", 6 ] ],
+    "bullet_protec": [ [ "eyes", 6 ] ],
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ],
+    "social_modifiers": { "intimidate": 12 }
+  },
+  {
+    "id": "bio_st_armor_head",
+    "type": "bionic",
+    "name": { "str": "Броня О-Сознания для головы" },
+    "description": "Броня от О-сознания для головы, создана из артефактного материала (Металючька).",
+    "occupied_bodyparts": [ [ "head", 7 ], [ "mouth", 2 ] ],
+    "bash_protec": [ [ "head", 10 ] ],
+    "cut_protec": [ [ "head", 10 ] ],
+    "bullet_protec": [ [ "head", 10 ] ],
+	"social_modifiers": { "intimidate": 10 },
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_st_armor_legs",
+    "type": "bionic",
+    "name": { "str": "Броня О-Сознания для ног" },
+    "description": "Броня от О-сознания для ног, создана из артефактного материала (Металючька).",
+    "occupied_bodyparts": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ],
+    "bash_protec": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ],
+    "cut_protec": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ],
+    "bullet_protec": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ],
+	"social_modifiers": { "intimidate": 10 },
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_st_armor_torso",
+    "type": "bionic",
+    "name": { "str": "Броня О-Сознания для тела" },
+    "description": "Броня от О-сознания для тела, создана из артефактного материала (Металючька).",
+    "occupied_bodyparts": [ [ "torso", 15 ] ],
+    "bash_protec": [ [ "torso", 10 ] ],
+    "cut_protec": [ [ "torso", 10 ] ],
+    "bullet_protec": [ [ "torso", 10 ] ],
+	"social_modifiers": { "intimidate": 10 },
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_blade",
+    "type": "bionic",
+    "name": { "str": "Оружие ближнего боя О-Сознания" },
+    "description": "очень острый мечь из артефакта (Металючька).",
+    "occupied_bodyparts": [ [ "arm_r", 7 ], [ "hand_r", 1 ] ],
+    "act_cost": "50 J",
+    "fake_weapon": "супермеч",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_st_carbon",
+    "type": "bionic",
+    "name": { "str": "Подкожная броня О-Сознания " },
+    "description": "Подкожная броня от О-сознания, созданная из артефактного материала (Металючька).",
+    "occupied_bodyparts": [
+      [ "torso", 5 ],
+      [ "head", 2 ],
+      [ "arm_l", 2 ],
+      [ "arm_r", 2 ],
+      [ "hand_l", 1 ],
+      [ "hand_r", 1 ],
+      [ "leg_l", 3 ],
+      [ "leg_r", 3 ],
+      [ "foot_l", 1 ],
+      [ "foot_r", 1 ]
+    ],
+    "bash_protec": [
+      [ "torso", 3 ],
+      [ "head", 3 ],
+      [ "arm_l", 3 ],
+      [ "arm_r", 3 ],
+      [ "hand_l", 3 ],
+      [ "hand_r", 3 ],
+      [ "leg_l", 3 ],
+      [ "leg_r", 3 ],
+      [ "foot_l", 3 ],
+      [ "foot_r", 3 ]
+    ],
+    "cut_protec": [
+      [ "torso", 5 ],
+      [ "head", 5 ],
+      [ "arm_l", 5 ],
+      [ "arm_r", 5 ],
+      [ "hand_l", 5 ],
+      [ "hand_r", 5 ],
+      [ "leg_l", 5 ],
+      [ "leg_r", 5 ],
+      [ "foot_l", 5 ],
+      [ "foot_r", 5 ]
+    ],
+    "bullet_protec": [
+      [ "torso", 5 ],
+      [ "head", 5 ],
+      [ "arm_l", 5 ],
+      [ "arm_r", 5 ],
+      [ "hand_l", 5 ],
+      [ "hand_r", 5 ],
+      [ "leg_l", 5 ],
+      [ "leg_r", 5 ],
+      [ "foot_l", 5 ],
+      [ "foot_r", 5 ]
+    ],
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_st_dex_enhancer",
+    "type": "bionic",
+    "name": { "str": "Улучшение тела О-Сознания тип (ловкость)" },
+    "description": "Особое устройство, сделанное из артефакта (заряд). Улучшает скорость реакции.",
+    "occupied_bodyparts": [ [ "torso", 6 ], [ "arm_l", 4 ], [ "arm_r", 4 ], [ "leg_l", 8 ], [ "leg_r", 8 ] ],
+    "stat_bonus": [ [ "DEX", 2 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_st_dex_enhancer1",
+    "type": "bionic",
+    "name": { "str": "Улучшение тела О-Сознания тип (ловкость)" },
+    "description": "Особое устройство, сделанное из артефакта (разряды). Улучшает скорость реакции.",
+    "occupied_bodyparts": [ [ "torso", 6 ], [ "arm_l", 4 ], [ "arm_r", 4 ], [ "leg_l", 8 ], [ "leg_r", 8 ] ],
+    "stat_bonus": [ [ "DEX", 4 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_st_str_enhancer",
+    "type": "bionic",
+    "name": { "str": "Улучшение тела О-Сознания тип (сила)" },
+    "description": "Особое устройство, сделанное из артефакта (вулкан). Улучшает физическое состояние.",
+    "occupied_bodyparts": [ [ "torso", 6 ], [ "arm_l", 4 ], [ "arm_r", 4 ], [ "leg_l", 8 ], [ "leg_r", 8 ] ],
+    "stat_bonus": [ [ "STR", 2 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_st_int_enhancer",
+    "type": "bionic",
+    "name": { "str": "Улучшение тела О-Сознания тип (интеллект)" },
+    "description": "Сопроцессор помогающий обрабатывать информацию быстрее.",
+    "occupied_bodyparts": [ [ "head", 1 ] ],
+    "stat_bonus": [ [ "INT", 4 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_st_int_enhancer1",
+    "type": "bionic",
+    "name": { "str": "Улучшение тела О-Сознания тип (интеллект) МК2" },
+    "description": "Сопроцессор помогающий обрабатывать информацию быстрее.",
+    "occupied_bodyparts": [ [ "head", 2 ] ],
+    "stat_bonus": [ [ "INT", 6 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_st_per_enhancer",
+    "type": "bionic",
+    "name": { "str": "Улучшение тела О-Сознания тип (восприятие)" },
+    "description": "Особое устройство, сделанное из артефакта (консерва). Улучшает зрение.",
+    "occupied_bodyparts": [ [ "eyes", 2 ] ],
+    "stat_bonus": [ [ "PER", 2 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_faraday",
+    "type": "bionic",
+    "name": { "str": "Защита от аномалии электра О-Сознания" },
+    "description": "Throughout your body lies a network of miniature piezoelectric capacitors which can be charged with bionic power to temporarily protect you from external electrical discharge.",
+    "occupied_bodyparts": [
+      [ "torso", 8 ],
+      [ "head", 2 ],
+      [ "arm_l", 2 ],
+      [ "arm_r", 2 ],
+      [ "hand_l", 1 ],
+      [ "hand_r", 1 ],
+      [ "leg_l", 3 ],
+      [ "leg_r", 3 ],
+      [ "foot_l", 1 ],
+      [ "foot_r", 1 ]
+    ],
+    "flags": ["BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ],
+    "active_flags": [ "ELECTRIC_IMMUNE" ]
+  },
+  {
+    "id": "bio_power_storage_mkII",
+    "type": "bionic",
+    "name": { "str": "Энерго хранилище О-Сознания" },
+    "capacity": "500 kJ",
+    "description": "Энерго хранилище сделанное из артефактов (Батарека).",
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  }
+]

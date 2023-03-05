@@ -1,0 +1,156 @@
+[
+{
+    "abstract": "bionic_st_general",
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "name": { "str": "abstract bionic module" },
+    "weight": "2041 g",
+    "volume": "2500 ml",
+    "bashing": 8,
+    "material": [ "Металючька", "plastic" ],
+    "symbol": ":",
+    "color": "yellow",
+    "price_postapoc": 1000,
+    "use_action": [ "install_bionic" ],
+    "flags": [ "CBM" ],
+    "is_upgrade": false,
+    "faults": [ "fault_bionic_salvaged" ]
+  },
+  {
+    "abstract": "bionic_st_general_npc_usable",
+    "copy-from": "bionic_st_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "abstract bionic module (npc usable)", "str_pl": "abstract bionic modules (npc usable)" },
+    "extend": { "flags": [ "BIONIC_NPC_USABLE" ] }
+  },
+  {
+    "id": "bio_st_armor_arms",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Броня О-Сознания для рук" },
+    "description": "Броня от О-сознания для рук, создана из артефактного материала (Металючька).",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_armor_arms"
+  },
+  {
+    "id": "bio_st_dex_enhancer",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Улучшение тела О-Сознания тип (ловкость)" },
+    "description": "Особое устройство, сделанное из артефакта (заряд). Улучшает скорость реакции.",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_dex_enhancer"
+  },
+  {
+    "id": "bio_st_dex_enhancer1",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Улучшение тела О-Сознания тип (ловкость)" },
+    "description": "Особое устройство, сделанное из артефакта (разряды). Улучшает скорость реакции.",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_dex_enhancer1"
+  },
+  {
+    "id": "bio_st_str_enhancer",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Улучшение тела О-Сознания тип (сила)" },
+    "description": "Особое устройство, сделанное из артефакта (вулкан). Улучшает физическое состояние.",
+    "price": 350000,
+    "difficulty": 6,
+    "installation_data": "AID_bio_st_str_enhancer"
+  },
+  {
+    "id": "bio_st_int_enhancer",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Улучшение тела О-Сознания тип (интеллект)" },
+    "description": "Особое устройство, сделанное из артефакта (эфир). Улучшает скорость работы мозга.",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_int_enhancer"
+  },
+  {
+    "id": "bio_st_int_enhancer1",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Улучшение тела О-Сознания тип (интеллект) МК2" },
+    "description": "Особое устройство, сделанное из артефакта (антена). Улучшает скорость работы мозга.",
+    "price": 350000,
+    "difficulty": 6,
+    "installation_data": "AID_bio_st_int_enhancer1"
+  },
+  {
+    "id": "bio_st_per_enhancer",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Улучшение тела О-Сознания тип (восприятие)" },
+    "description": "Особое устройство, сделанное из артефакта (консерва). Улучшает зрение.",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_per_enhancer"
+  },
+  {
+    "id": "bio_st_armor_eyes",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Броня О-Сознания для глаз" },
+    "description": "Броня от О-сознания для глаз, создана из артефактного материала (Металючька).",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_armor_eyes"
+  },
+  {
+    "id": "bio_st_armor_head",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Броня О-Сознания для головы" },
+    "description": "Броня от О-сознания для головы, создана из артефактного материала (Металючька).",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_armor_head"
+  },
+  {
+    "id": "bio_st_armor_legs",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Броня О-Сознания для ног" },
+    "description": "Броня от О-сознания для ног, создана из артефактного материала (Металючька).",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_armor_legs"
+  },
+  {
+    "id": "bio_st_armor_torso",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Броня О-Сознания для тела" },
+    "description": "Броня от О-сознания для тела, создана из артефактного материала (Металючька).",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_armor_torso"
+  },
+  {
+    "id": "bio_blade",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Оружие ближнего боя О-Сознания" },
+    "description": "очень острый мечь из артефакта (Металючька).",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_blade"
+  },
+  {
+    "id": "bio_st_carbon",
+    "copy-from": "bionic_st_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Подкожная броня О-Сознания" },
+    "description": "Подкожная броня от О-сознания, созданная из артефактного материала (Металючька).",
+    "price": 350000,
+    "difficulty": 3,
+    "installation_data": "AID_bio_st_carbon"
+  }
+]

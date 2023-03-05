@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "супермеч",
+    "name": { "str": "Оружие ближнего боя О-Сознания" },
+    "description": "очень острый мечь из артефакта (Металючька).",
+	"to_hit": { "grip": "weapon", "length": "short", "surface": "line", "balance": "neutral" },
+    "weight": "100 g",
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [ "Металючька" ],
+    "techniques": [ "WBLOCK_2" ],
+    "volume": "750 ml",
+    "longest_side": "30 cm",
+    "cutting": 50,
+    "flags": [ "BIONIC_WEAPON", "UNBREAKABLE_MELEE", "TRADER_AVOID","PSEUDO"  ],
+	"weapon_category": [ "BIONIC_WEAPONRY", "BIONIC_SWORDS" ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 30 ] ]
+  }
+]
