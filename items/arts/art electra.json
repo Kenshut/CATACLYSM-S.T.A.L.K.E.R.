@@ -14,6 +14,48 @@
     "color": "light_gray"
   }, 
   {
+    "id": "Заряд",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(заряд)","str_pl": "(заряд)" },
+    "description": "Все время искрит.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }, 
+  {
+    "id": "Разряды",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(разряды)","str_pl": "(разряды)" },
+    "description": "При прикосновении с вашим телом начинает пускать искры.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }, 
+  {
+    "id": "Антенна",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(антенна)","str_pl": "(антенна)" },
+    "description": "Принимает в себя электрические название, из-за этого и называется антенной.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  },
+  {
     "id": "af_electra_dummy",
     "type": "GENERIC",
     "category": "spare_parts",

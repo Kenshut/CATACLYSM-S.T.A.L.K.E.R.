@@ -14,6 +14,20 @@
     "color": "light_gray"
   },  
   {
+    "id": "Вулкан",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "(вулкан)","str_pl": "(вулкан)" },
+    "description": "Очень сильно напоминает вулка, из вершины к основанию идут красно-оражевые линии.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "iron" ],
+    "symbol": ",",
+    "color": "light_gray"
+  }, 
+  {
     "id": "af_drops",
     "type": "GENERIC",
     "category": "spare_parts",
