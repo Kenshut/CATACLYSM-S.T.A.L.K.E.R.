@@ -1,0 +1,39 @@
+[
+  {
+    "id": "ks_combatbolt",
+    "type": "AMMO",
+    "name": { "str": "ржавый болт" },
+    "copy-from": "ks_bolt",
+    "description": "Методом проб и ошибок, выяснилось, то что ржавые болты в качестве патрона, намного лучше чем обычный болт",
+    "material": [ "steel" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "range": 6,
+	"thrown_damage": [ { "damage_type": "bash", "amount": 10 } ],
+    "damage": { "damage_type": "bullet", "amount": 21, "armor_penetration": 4 },
+    "dispersion": 90,
+    "proportional": { "price": 3.0 }
+  },
+  {
+    "id": "ks_bolt",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "name": { "str": "болт" },
+    "description": "A pin-shaped piece of iron, can be used to construct various things with a hammer.",
+    "weight": "4 g",
+    "volume": "250 ml",
+    "price": 1000,
+    "price_postapoc": 250,
+    "material": [ "iron" ],
+    "symbol": "=",
+    "color": "cyan",
+    "count": 100,
+    "stack_size": 100,
+    "ammo_type": "ks_bolts",
+    "range": 4,
+	"thrown_damage": [ { "damage_type": "bash", "amount": 5 } ],
+    "damage": { "damage_type": "bullet", "amount": 10, "armor_penetration": 2 },
+    "dispersion": 180,
+    "effects": [ "NON_FOULING" ]
+  }
+]

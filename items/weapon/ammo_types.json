@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "ks_bolts",
+    "name": "болты",
+    "default": "ks_bolt"
+  }
+]
