@@ -13,7 +13,7 @@
 
 Ссылка на MeatFly https://www.youtube.com/@MeatFlyOriginal/videos
 
-Ссылка на дискорд сервер https://discord.gg/tCUuhzjy
+Ссылка на дискорд сервер [https://discord.gg/tCUuhzjy](https://discord.gg/FdR5Ea7Dsw)
 
 # Что сделано 
 
