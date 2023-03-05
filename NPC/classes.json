@@ -1,0 +1,19 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_монолит",
+    "name": { "str": "Монолитовеч" },
+    "job_description": "Монолит больше не отвечает, но я не сдамся .",
+    "traits": [ { "group": "BG_survival_story_EVACUEE" }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+	"weapon_override": "Оружие_монолита",
+	"worn_override": "одежда_монолита",
+	"carry_override": "вещи_монолита",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "gun", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "pistol", "bonus": { "rng": [ 2, 5 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 2, 5 ] } },
+      { "skill": "archery", "bonus": { "rng": [ 2, 5 ] } }
+    ]
+  }
+]

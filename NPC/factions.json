@@ -1,0 +1,71 @@
+[
+  {
+    "type": "faction",
+    "id": "безумцы_из_монолита",
+    "name": "безумцы из монолита",
+    "likes_u": -100,
+    "respects_u": -100,
+    "known_by_u": false,
+    "size": 100,
+    "power": 100,
+    "food_supply": 230400,
+    "wealth": 45000000,
+    "relations": {
+      "hells_raiders": {"kill on sight": true},
+      "free_merchants": { "kill on sight": true },
+      "old_guard": { "kill on sight": true },
+      "your_followers": { "kill on sight": true }
+    },
+    "epilogues": [
+      { "power_min": 0, "id": "epilogue_faction_hells_raiders_0" },
+      { "power_max": 150, "id": "epilogue_faction_hells_raiders_150" }
+    ],
+    "description": "Их разум поврежден слишком сильно поврежден."
+  },
+  {
+    "type": "faction",
+    "id": "Бывшие_монолитовцы",
+    "name": "Бывшие монолитовцы",
+    "likes_u": 0,
+    "respects_u": 0,
+    "known_by_u": false,
+    "size": 100,
+    "power": 100,
+    "food_supply": 230400,
+    "wealth": 45000000,
+    "relations": {
+      "free_merchants": { "knows your voice": true },
+      "old_guard": { "knows your voice": true },
+      "your_followers": { "knows your voice": true },
+      "no_faction": { "knows your voice": true }
+    },
+    "description": "На удивление они смогли сохранить разум."
+  },
+  {
+    "type": "faction",
+    "id": "prisoners",
+    "name": "Prisoners",
+    "likes_u": 0,
+    "respects_u": 0,
+    "known_by_u": true,
+    "size": 100,
+    "power": 100,
+    "food_supply": 230400,
+    "wealth": 45000000,
+    "relations": {
+      "hells_raiders": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "free_merchants": { "kill on sight": true },
+      "old_guard": { "kill on sight": true },
+      "your_followers": { "kill on sight": false }
+    },
+    "description": "Former prisoners who got their freedom during the apocalypse."
+  }
+]

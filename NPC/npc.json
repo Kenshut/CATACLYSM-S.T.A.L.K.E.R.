@@ -1,0 +1,39 @@
+[
+  {
+    "type": "npc",
+    "id": "Монолитовец",
+    "//": "Generic pistol/rifle focused guard for the Hell's Raiders faction.",
+    "name_suffix": "Монолитовец",
+    "class": "NC_монолит",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_DONE",
+    "faction": "безумцы_из_монолита"
+  },
+      {
+    "type": "item_group",
+    "id": "одежда_монолита",
+    "subtype": "collection",
+    "entries": [
+      { "item": "boxer_briefs" },
+      { "item": "socks" },
+      { "item": "штаны_монолита" },
+	  { "item": "backpack" },
+	  { "item": "boots_combat" },
+      { "item": "куртка_монолита" },
+      { "item": "перчатки_монолита" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "вещи_монолита",
+    "subtype": "collection",
+    "entries": [ { "item": "50bmg" },{ "item": "50bmg" } ]
+  },
+    {
+    "type": "item_group",
+    "id": "Оружие_монолита",
+    "subtype": "collection",
+    "entries": [ { "item": "m2browning_sawn" } ]
+  }
+]
