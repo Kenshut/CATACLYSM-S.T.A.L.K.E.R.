@@ -1,0 +1,29 @@
+[
+  {
+    "id": "бункер",
+    "type": "overmap_terrain",
+    "name": "странное здание",
+    "sym": "+",
+    "color": "i_red",
+    "see_cost": 2,
+    "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
+  },
+  {
+    "id": "бункер_сталкер_низ",
+    "type": "overmap_terrain",
+    "name": "странное здание",
+    "sym": "+",
+    "color": "i_red",
+    "see_cost": 2,
+    "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
+  },
+  {
+    "id": "бункер_сталкер_крыша",
+    "type": "overmap_terrain",
+    "name": "странное здание",
+    "sym": "+",
+    "color": "i_red",
+    "see_cost": 2,
+    "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
+  }
+]

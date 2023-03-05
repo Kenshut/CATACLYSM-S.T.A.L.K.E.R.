@@ -1,0 +1,14 @@
+[
+  {
+    "type": "overmap_special",
+    "id": "бункер_o",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "бункер" }, 
+	 { "point": [ 0, 0, 1 ], "overmap": "бункер_сталкер_крыша" },
+	 { "point": [ 0, 0, -1 ], "overmap": "бункер_сталкер_низ" }
+	],
+    "locations": [ "land" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 1 ]
+  }
+]

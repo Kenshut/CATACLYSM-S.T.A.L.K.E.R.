@@ -10,6 +10,16 @@
     "autonote": false
   },
   {
+    "id": "mx_anom_home_electr",
+    "type": "map_extra",
+    "name": { "str": "Аномалия электра" },
+    "description": "Если ты это читаешь то ти плохой!",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_anom_home_electr" },
+    "sym": "o",
+    "color": "red",
+    "autonote": false
+  },
+  {
     "id": "mx_anom_rat",
     "type": "map_extra",
     "name": { "str": "группа Странных крыс" },
