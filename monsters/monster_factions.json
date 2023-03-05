@@ -4,6 +4,18 @@
     "name": "Tushkan",
 	"neutral": [ "insect","Tushkan"]
   },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "zombie",
+    "friendly": [ "slime", "зомбированые" ],
+    "neutral": [ "cult", "small_animal", "fish", "insect", "aquatic_predator" ],
+    "by_mood": [ "ant", "acid_ant", "bee", "wasp" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+	 "friendly": [ "zombie" ],
+    "name": "зомбированые"
+  },
     {
     "type": "MONSTER_FACTION",
     "name": "Tark",

@@ -1,9 +1,20 @@
 [
+{
+    "type": "snippet",
+    "category": "провалсборачастеймутантов",
+    "text": [ "Вы пытались извлечь полезные части из этого мутанта, но не вышло." ]
+  },
+{
+    "type": "harvest_drop_type",
+    "id": "частимутантов",
+	"harvest_skills": [ "survival" ],
+    "msg_dissect_fail": "провалсборачастеймутантов"
+  },
   {
     "id": "stalker_dog_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_tail_dog", "base_num": [ 0, 1 ] },
+      { "drop": "ks_tail_dog","type": "частимутантов", "base_num": [ 0, 1 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
@@ -20,7 +31,7 @@
     "id": "stalker_Barsick_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_clav_bars", "base_num": [ 0, 4 ] },
+      { "drop": "ks_clav_bars", "type": "частимутантов","base_num": [ 0, 4 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
@@ -37,7 +48,7 @@
     "id": "stalker_rat_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_tail_rat", "base_num": [ 0, 1 ] },
+      { "drop": "ks_tail_rat", "type": "частимутантов","base_num": [ 0, 1 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
@@ -54,8 +65,8 @@
     "id": "stalker_Psevdogigantrofl_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_ears_Psevdogigantrofl", "base_num": [ 0, 2 ] },
-	  { "drop": "ks_leg_Psevdogigantrofl", "base_num": [ 0, 2 ] },
+      { "drop": "ks_ears_Psevdogigantrofl","type": "частимутантов", "base_num": [ 0, 2 ] },
+	  { "drop": "ks_leg_Psevdogigantrofl", "type": "частимутантов","base_num": [ 0, 2 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
@@ -72,7 +83,7 @@
     "id": "stalker_himera_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_clav", "base_num": [ 0, 6 ] },
+      { "drop": "ks_clav","type": "частимутантов", "base_num": [ 0, 6 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
@@ -89,7 +100,7 @@
     "id": "stalker_Psevdogigant_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_arm_Psevdogigant", "base_num": [ 0, 2 ] },
+      { "drop": "ks_arm_Psevdogigant","type": "частимутантов", "base_num": [ 0, 2 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
@@ -106,7 +117,7 @@
     "id": "stalker_tushkan_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_head_tushkan", "base_num": [ 0, 1 ] },
+      { "drop": "ks_head_tushkan","type": "частимутантов", "base_num": [ 0, 1 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
@@ -123,7 +134,7 @@
     "id": "stalker_tark_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_eye_tark", "base_num": [ 0, 2 ] },
+      { "drop": "ks_eye_tark","type": "частимутантов", "base_num": [ 0, 2 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
@@ -140,7 +151,7 @@
     "id": "stalker_psevdo_dog_harvest",
     "type": "harvest",
     "entries": [
-      { "drop": "ks_tail_psevdo_dog", "base_num": [ 0, 1 ] },
+      { "drop": "ks_tail_psevdo_dog","type": "частимутантов", "base_num": [ 0, 1 ] },
 	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
       { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },

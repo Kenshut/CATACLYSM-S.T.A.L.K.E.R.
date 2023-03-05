@@ -23,13 +23,13 @@
     "melee_cut": 10,
     "dodge": 3,
 	"anger_triggers": [ "FRIEND_DIED","FRIEND_ATTACKED","PLAYER_CLOSE" ],
-	"fear_triggers": [ "SOUND", "FRIEND_DIED","PLAYER_CLOSE" ],
+	"fear_triggers": [ "SOUND"],
 	"vision_day": 30,
     "vision_night": 8,
     "harvest": "stalker_psevdo_dog_harvest",
     "special_attacks": [ { "type": "bite", "cooldown": 5 } ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY","HIT_AND_RUN" ]
+     
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE","FILTHY","HIT_AND_RUN" ]
   },
   {
     "id": "mon_stalker_dog",
@@ -48,7 +48,7 @@
     "symbol": "d",
     "color": "light_gray",
 	"anger_triggers": [ "FRIEND_DIED","FRIEND_ATTACKED","PLAYER_CLOSE" ],
-	"fear_triggers": [ "SOUND", "FRIEND_DIED","PLAYER_CLOSE" ],
+	"fear_triggers": [ "SOUND" ],
     "aggression": 5,
     "morale": 100,
     "melee_skill": 4,
@@ -60,8 +60,8 @@
     "vision_night": 4,
     "harvest": "stalker_dog_harvest",
     "special_attacks": [ { "type": "bite", "cooldown": 5 } ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY","HIT_AND_RUN" ]
+     
+    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "FILTHY","HIT_AND_RUN" ]
   },
   {
     "id": "mon_stalker_barsic",
@@ -80,7 +80,7 @@
     "symbol": "d",
     "color": "light_gray",
 	"anger_triggers": [ "FRIEND_DIED","FRIEND_ATTACKED","PLAYER_CLOSE" ],
-	"fear_triggers": [ "SOUND", "FRIEND_DIED","PLAYER_CLOSE" ],
+	"fear_triggers": [ "SOUND" ],
     "aggression": 5,
     "morale": 100,
     "melee_skill": 5,
@@ -92,8 +92,8 @@
     "vision_night": 10,
     "harvest": "stalker_Barsick_harvest",
     "special_attacks": [ { "type": "bite", "cooldown": 5 },{ "type": "leap", "cooldown": 10, "max_range": 3 } ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY","HIT_AND_RUN" ]
+     
+    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "FILTHY","HIT_AND_RUN" ]
   },
   {
     "id": "mon_stalker_tushkan",
@@ -101,11 +101,11 @@
     "name": { "str": "Тушкан" },
     "description": "Тушкан — маленькое крысоподобное существо, передвигающиеся на двух лапах.",
     "default_faction": "Tushkan",
-	  "anger_triggers": [ "FRIEND_DIED","FRIEND_ATTACKED" ],
-	"fear_triggers": [ "SOUND", "FRIEND_DIED","PLAYER_CLOSE" ],
     "bodytype": "rat",
     "categories": [ "CLASSIC" ],
     "species": [  "MUTANT" ],
+	"anger_triggers": [ "FRIEND_DIED","FRIEND_ATTACKED","PLAYER_CLOSE","HURT" ],
+	"fear_triggers": [ "FRIEND_DIED"],
     "volume": "500 ml",
     "weight": "2000 g",
     "hp": 20,
@@ -124,7 +124,7 @@
     "vision_night": 4,
     "harvest": "stalker_tushkan_harvest",
     "special_attacks": [ { "type": "bite", "cooldown": 5 } ],
-    "death_function": [ "NORMAL" ],
+     
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE","DOGFOOD","HIT_AND_RUN","FILTHY" ]
   },
   {
@@ -135,7 +135,7 @@
     "default_faction": "STRANRAT",
     "bodytype": "rat",
 	"anger_triggers": [ "FRIEND_DIED","FRIEND_ATTACKED","PLAYER_CLOSE" ],
-	"fear_triggers": [ "SOUND", "FRIEND_DIED","PLAYER_CLOSE" ],
+	"fear_triggers": [ "SOUND", "FRIEND_DIED"],
     "categories": [ "CLASSIC" ],
     "species": [  "MUTANT" ],
     "volume": "500 ml",
@@ -154,10 +154,11 @@
     "dodge": 4,
 	"vision_day": 15,
     "vision_night": 4,
+
     "harvest": "stalker_rat_harvest",
     "special_attacks": [ { "type": "bite", "cooldown": 5 } ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE","DOGFOOD","HIT_AND_RUN","FILTHY" ]
+     
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE","HIT_AND_RUN","FILTHY" ]
   },
   {
     "id": "mon_stalker_horse",
@@ -176,7 +177,6 @@
     "material": [ "flesh" ],
     "symbol": "H",
     "color": "light_gray",
-	"fear_triggers": [ "SOUND", "FRIEND_DIED","PLAYER_CLOSE" ],
     "aggression": 9,
     "morale": 100,
     "melee_skill": 4,
@@ -188,9 +188,9 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "stalker_tark_harvest",
-    "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE", "BONES", "FAT" ]
+    "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK","SOUND", "FRIEND_DIED","PLAYER_CLOSE" ],
+     
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE"]
   },
   {
     "id": "mon_stalker_Psevdogigantrofl",
@@ -232,8 +232,8 @@
     "vision_night": 5,
     "harvest": "stalker_Psevdogigantrofl_harvest",
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE", "BONES", "FAT" ]
+     
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE" ]
   },
   {
     "id": "mon_stalker_Psevdogigant",
@@ -274,8 +274,8 @@
     "vision_night": 5,
     "harvest": "stalker_Psevdogigant_harvest",
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE", "BONES", "FAT" ]
+     
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE" ]
   },
   {
     "id": "mon_stalker_himera",
@@ -320,7 +320,7 @@
     "vision_night": 5,
     "harvest": "stalker_himera_harvest",
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE", "BONES", "FAT" ]
+     
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES" ]
   }
 ]
