@@ -5,5 +5,12 @@
     "skills": [ "workart"],
     "skill_offset": -3,
     "scaling_power": 0.4
+  },
+  {
+    "type": "skill_boost",
+    "stat": "per",
+    "skills": [ "Артифактное_оружие"],
+    "skill_offset": -3,
+    "scaling_power": 0.4
   }
 ]

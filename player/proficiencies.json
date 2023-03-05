@@ -2,6 +2,7 @@
   {
     "type": "proficiency",
     "id": "prof_arts",
+	"category": "prof_stalker",
     "name": { "str": "базовая работа с артефактами" },
     "description": "Вы немного знаете как работать с артефактами.",
     "can_learn": true,
@@ -12,6 +13,7 @@
     {
     "type": "proficiency",
     "id": "prof_arts2",
+	"category": "prof_stalker",
     "name": { "str": "быстрая работа с артефактами" },
     "description": "Вы знаете как быстро работать с артефактами.",
     "can_learn": true,
@@ -20,9 +22,22 @@
     "time_to_learn": "8 h",
 	    "required_proficiencies": [ "prof_arts" ]
   },
+  {
+    "type": "proficiency",
+    "id": "prof_arts3",
+	"category": "prof_stalker",
+    "name": { "str": "Управление некоторыми свойствами артефактов" },
+    "description": "Вы знаете как воздействовать на артефакты, чтобы они давали более лучший результат.",
+    "can_learn": true,
+    "default_time_multiplier": 1.2,
+    "default_fail_multiplier": 1.8,
+    "time_to_learn": "8 h",
+	    "required_proficiencies": [ "prof_arts2" ]
+  },
       {
     "type": "proficiency",
     "id": "prof_mutants2",
+	"category": "prof_stalker",
     "name": { "str": "быстрая работа с частями тел мутантов" },
     "description": "Вы знаете как быстро работать с частями тел мутантов.",
     "can_learn": true,
@@ -34,8 +49,20 @@
     {
     "type": "proficiency",
     "id": "prof_mutants",
+	"category": "prof_stalker",
     "name": { "str": "базовая работа с частями тел мутантов" },
     "description": "Вы немного знаете как работать с частями тел мутантов.",
+    "can_learn": true,
+    "default_time_multiplier": 1.5,
+    "default_fail_multiplier": 1.8,
+    "time_to_learn": "8 h"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_mutants_harvest",
+	"category": "prof_stalker",
+    "name": { "str": "Начальное знание анатомии тушканов" },
+    "description": "Вы немного знаете анатомию тушканов.",
     "can_learn": true,
     "default_time_multiplier": 1.5,
     "default_fail_multiplier": 1.8,

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "avatar_mutant_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "MUTANT" ] } }
+  },
+  {
+    "id": "num_avatar_mutant_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_mutant_kills",
+    "description": { "str": "Мутантов убито", "str_pl": "Мутантов убито" }
+  },
+  {
+    "id": "avatar_замбированый_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "HUMAN" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированый_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_замбированый_kills",
+    "description": { "str": "Зомбированных убито", "str_pl": "Зомбированных убито" }
+  },
+  {
+    "id": "avatar_gains_workart_level_7",
+    "type": "event_transformation",
+    "event_type": "gains_skill_level",
+    "value_constraints": {
+      "character": { "equals_statistic": "avatar_id" },
+      "skill": { "equals": [ "skill_id", "workart" ] },
+      "new_level": { "equals": [ "int", "7" ] }
+    },
+    "drop_fields": [ "character", "skill", "new_level" ]
+  },
+  {
+    "id": "avatar_gains_workart_level_10",
+    "type": "event_transformation",
+    "event_type": "gains_skill_level",
+    "value_constraints": {
+      "character": { "equals_statistic": "avatar_id" },
+      "skill": { "equals": [ "skill_id", "workart" ] },
+      "new_level": { "equals": [ "int", "10" ] }
+    },
+    "drop_fields": [ "character", "skill", "new_level" ]
+  },
+  {
+    "id": "num_gains_workart_level_7",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_gains_workart_level_7",
+    "description": { "str_sp": "седьмой уровень работы с артефактами получен" }
+  },
+  {
+    "id": "num_gains_workart_level_10",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_gains_workart_level_10",
+    "description": { "str_sp": "десятый уровень работы с артефактами получен" }
+  }
+]

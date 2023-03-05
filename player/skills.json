@@ -1,5 +1,14 @@
 [
-
+{
+    "type": "skill",
+    "id": "Артефактное_оружие",
+    "name": { "str": "Артифактное оружие" },
+    "description": "Знание и умение использовать артефактное оружие.",
+    "tags": [ "combat_skill" ],
+    "time_to_attack": { "min_time": 10, "base_time": 80, "time_reduction_per_level": 7 },
+    "display_category": "display_ranged",
+    "companion_skill_practice": [ { "skill": "hunting", "weight": 25 } ]
+  },
   {
     "type": "skill",
     "id": "workart",

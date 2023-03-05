@@ -26,6 +26,50 @@
   },
   {
     "type": "profession",
+    "id": "Stalker_о_сознание",
+    "name": "Боевик О-Сознание",
+    "description": "Ноосфера, давно предсказывала выброс безумной силы и вас готовили для борьбы с последствиями. В вас вживили супер броню и замаскировали под новичка, настал ваш час.",
+    "points": 12,
+    "skills": [
+      { "level": 6, "name": "survival" },
+	  { "level": 6, "name": "gun" },
+      { "level": 4, "name": "firstaid" }
+    ],
+	"CBMs": [ "bio_st_armor_arms", "bio_st_armor_eyes", "bio_st_armor_head", "bio_st_armor_legs", "bio_power_storage_mkII", "bio_st_armor_torso", "bio_st_carbon","bio_metabolics"],
+    "items": {
+      "both": {
+        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants", "mocassins", "ks_art_bracelet_glassm", "ks_art_bracelet_glass"],
+        "entries": [
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+		  { "item": "makeshift_knife"},
+		  { "item": "makarov", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "Stalker_о_сознание_сотрудник",
+    "name": "Сотрудник О-Сознание",
+    "description": "Вы лежали подключенным к ноосфере, вы готовились к безумному выбросу, настал час Х.",
+    "points": 6,
+    "skills": [
+      { "level": 4, "name": "chemistry" },
+      { "level": 4, "name": "workart" }
+    ],
+	"CBMs": ["bio_st_int_enhancer1"],
+    "items": {
+      "both": {
+        "items": ["ks_art_bracelet_glassm", "ks_art_bracelet_glass"]
+      }
+    }
+  },
+  {
+    "type": "profession",
     "id": "Stalker_pr_norm",
     "name": "Опытный сталкер",
     "description": "Сталкерок.",
@@ -106,7 +150,7 @@
     "type": "profession",
     "id": "Stalker_pr_pets",
     "name": "Сталкер с тушканом",
-    "description": "Вы спокойно шли в бар 100 ренген, как вдруг к вам в руки запригивает тушканчик. На удивление он проявил к вам симпятию и вы решили оставить его как питомца.",
+    "description": "Вы спокойно шли в бар 100 рентген, как вдруг к вам в руки запригивает тушканчик. На удивление он проявил к вам симпятию и вы решили оставить его как питомца.",
     "points": 3,
     "skills": [
       { "level": 1, "name": "survival" },

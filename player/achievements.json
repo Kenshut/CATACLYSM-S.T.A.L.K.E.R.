@@ -1,0 +1,107 @@
+[
+{
+    "id": "achievement_зомбированый_kills",
+    "type": "achievement",
+    "name": "Они ведь уже не люди?",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированый_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills",
+    "type": "achievement",
+    "name": "КАЗНИТЬ ТВАРЬ",
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_10",
+    "type": "achievement",
+    "name": "УБИТЬ ТВАРЕЙ",
+	"hidden_by": [ "achievement_mutant_kills" ],
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 10, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_20",
+    "type": "achievement",
+    "name": "УБИВАТЬ ТВАРЕЙ",
+	"hidden_by": [ "achievement_mutant_kills_10" ],
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 20, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_30",
+    "type": "achievement",
+    "name": "ИЗРУБИТЬ ТВАРЕЙ",
+	"hidden_by": [ "achievement_mutant_kills_20" ],
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 30, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_40",
+    "type": "achievement",
+    "name": "ИСКОРЕНИТЬ ТВАРЕЙ",
+	"hidden_by": [ "achievement_mutant_kills_30" ],
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 40, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_50",
+    "type": "achievement",
+	"hidden_by": [ "achievement_mutant_kills_40" ],
+    "name": "УНИЧТОЖИТЬ ТВАРЕЙ",
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 50, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_60",
+    "type": "achievement",
+	"hidden_by": [ "achievement_mutant_kills_50" ],
+    "name": "ИЗНИЧТОЖИТЬ ТВАРЕЙ",
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 60, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_70",
+    "type": "achievement",
+	"hidden_by": [ "achievement_mutant_kills_60" ],
+    "name": "ИСТРЕБИТЬ ТВАРЕЙ",
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 70, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_80",
+    "type": "achievement",
+	"hidden_by": [ "achievement_mutant_kills_70" ],
+    "name": "УБИЙЦА ТВАРЕЙ",
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 80, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_90",
+    "type": "achievement",
+	"hidden_by": [ "achievement_mutant_kills_80" ],
+    "name": "УНИЧТОЖИТЕЛЬ ТВАРЕЙ",
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 90, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_100",
+    "type": "achievement",
+	"hidden_by": [ "achievement_mutant_kills_90" ],
+    "name": "ИСТРЕБИТЕЛЬ ТВАРЕЙ",
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 100, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_mutant_kills_200",
+    "type": "achievement",
+	"hidden_by": [ "achievement_mutant_kills_100" ],
+    "name": "ИСКОРЕНИТЕЛЬ ТВАРЕЙ",
+    "requirements": [ { "event_statistic": "num_avatar_mutant_kills", "is": ">=", "target": 200, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_lvl_7_workart",
+    "type": "achievement",
+    "name": "Опытный исследователь",
+    "description": "Вы уже многое знаете, да вот только сколько сил у вас на это ушло??",
+    "requirements": [ { "event_statistic": "num_gains_workart_level_7", "is": ">=", "target": 1 } ],
+    "hidden_by": [ "achievement_lvl_7_survival" ]
+  },
+  {
+    "id": "achievement_lvl_10_workart",
+    "type": "achievement",
+    "name": "Дитя зоны",
+    "description": "С каждым разом вы все лучше понимали подарки зоны, но спасут ли эти знания человечество?",
+    "requirements": [ { "event_statistic": "num_gains_workart_level_10", "is": ">=", "target": 1 } ],
+    "hidden_by": [ "achievement_lvl_7_workart" ]
+  }
+]
