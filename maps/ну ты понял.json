@@ -144,7 +144,7 @@
 	"om_terrain": [ "бункер_сталкер_низ" ],
     "weight": 500,
     "object": {
-	 "predecessor_mapgen": "field",
+	 "predecessor_mapgen": "solid_earth",
       "rows": [
         "zzzzzzzzzzzzzzzzzzzzzzzz",
         "zzzzzzzzzzzzzzzzzzzzzzzz",
@@ -182,7 +182,7 @@
 	"om_terrain": [ "бункер_сталкер_низ" ],
     "weight": 500,
     "object": {
-	 "predecessor_mapgen": "field",
+	 "predecessor_mapgen": "solid_earth",
       "rows": [
         "zzzzzzzzzzzzzzzzzzzzzzzz",
         "zzzzzzzzzzzzzzzzzzzzzzzz",
