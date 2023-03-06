@@ -14,7 +14,7 @@
     "description": "Браслет сделанный из артефакта (балванка), радиоктивен, позволяет поднимать больше килограмм.",
     "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
     "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS", "intensity": 1 } ],"values": [{ "value": "CARRY_WEIGHT", "add": 2} ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS", "intensity": 1 } ],"values": [{ "value": "CARRY_WEIGHT", "add": 2000} ] } ]
     }
   },
     {
@@ -32,7 +32,7 @@
     "description": "Браслет сделанный из артефактов (балванка), радиоктивен, позволяет поднимать больше килограмм.",
     "flags": ["STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "WATER_FRIENDLY" ],
     "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS", "intensity": 1 } ],"values": [{ "value": "CARRY_WEIGHT", "add": 4} ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "RADPLYS", "intensity": 1 } ],"values": [{ "value": "CARRY_WEIGHT", "add": 4000} ] } ]
     }
   },
   {
