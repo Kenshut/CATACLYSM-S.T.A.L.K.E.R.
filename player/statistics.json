@@ -16,7 +16,7 @@
     "id": "avatar_замбированый_kills",
     "type": "event_transformation",
     "event_transformation": "avatar_species_kills",
-    "value_constraints": { "species": { "equals": [ "species_id", "HUMAN" ] } }
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный" ] } }
   },
   {
     "id": "num_avatar_зомбированый_kills",
