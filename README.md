@@ -1,4 +1,4 @@
-# РАБОТАЕТ ТОЛЬКО В Cataclysm:dark day ahead 0.F.3
+# РАБОТАЕТ ТОЛЬКО В Cataclysm:dark day ahead 0.G
 # Cataclysm: S.T.A.L.K.E.R.
 
 "Cataclysm: S.T.A.L.K.E.R." Это преображение обычного "катаклизма: темные дни в переди" в мир с сталкерской тематикой
