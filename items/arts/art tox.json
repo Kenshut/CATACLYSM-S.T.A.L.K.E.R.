@@ -8,8 +8,8 @@
     "description": "этот артефакт очень слабо светится.",
     "weight": "70 g",
     "volume": "250 ml",
-    "price": 0,
-    "price_postapoc": 0,
+    "price": 1000,
+    "price_postapoc": 1000,
     "material": [ "iron" ],
     "symbol": ",",
     "color": "light_gray"
@@ -22,8 +22,8 @@
     "description": "Артефакт представляет из себя несколько соединённых полых образований органической природы.",
     "weight": "70 g",
     "volume": "250 ml",
-    "price": 0,
-    "price_postapoc": 0,
+    "price": 1000,
+    "price_postapoc": 1000,
     "material": [ "iron" ],
     "symbol": ",",
     "color": "light_gray"
@@ -36,8 +36,8 @@
     "description": "Полупрозрачное желеобразное образование сферической формы с 6-ю симметрично расположенными впадинами.",
     "weight": "70 g",
     "volume": "250 ml",
-    "price": 0,
-    "price_postapoc": 0,
+    "price": 1000,
+    "price_postapoc": 1000,
     "material": [ "iron" ],
     "symbol": ",",
     "color": "light_gray"
@@ -50,8 +50,8 @@
     "description": "Полупрозрачное желеобразное образование беспорядочной формы коричневатого цвета..",
     "weight": "70 g",
     "volume": "250 ml",
-    "price": 0,
-    "price_postapoc": 0,
+    "price": 1000,
+    "price_postapoc": 1000,
     "material": [ "iron" ],
     "symbol": ",",
     "color": "light_gray"

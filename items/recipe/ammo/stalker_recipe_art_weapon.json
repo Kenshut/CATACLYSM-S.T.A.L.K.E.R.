@@ -9,7 +9,7 @@
 	"autolearn": [ [ "fabrication", 2 ] ],
     "skill_used": "fabrication",
     "difficulty": 3,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_blacksmithing"}
     ],
@@ -25,7 +25,7 @@
 	"autolearn": [ [ "fabrication", 2 ] ],
     "skill_used": "fabrication",
     "difficulty": 3,
-    "time": 120000,
+    "time": "20 m",
 	"tools": [ [ [ "electrolysis_kit", 200 ] ], [ [ "copper", -1 ] ] ],
     "components": [ [ [ "ks_bolt", 100 ] ] ]
   }

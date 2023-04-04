@@ -5,7 +5,7 @@
     "name": "S.T.A.L.K.E.R.",
     "authors": [ "Kenshut" ],
     "description": "Модификация по мотивам сталкера",
-    "category": "content",
+    "category": "total_conversion",
     "dependencies": [ "dda" ]
   }
 ]

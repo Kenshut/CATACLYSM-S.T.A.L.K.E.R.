@@ -2,8 +2,65 @@
 {
     "id": "achievement_зомбированый_kills",
     "type": "achievement",
-    "name": "Они ведь уже не люди?",
+    "name": "убей зомбированного.",
+	"description":"Они ведь уже не люди?",
     "requirements": [ { "event_statistic": "num_avatar_зомбированый_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_зомбированый_солдат_kills",
+    "type": "achievement",
+    "name": "убить зомбированного солдата.",
+	"description":"Погоны не помогли...",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированный_солдат_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_зомбированый_сталкер_kills",
+    "type": "achievement",
+    "name": "Убить зомбированного сталкера.",
+	"description":"Какой неудачный конец...",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированный_сталкер_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_зомбированый_свобода_kills",
+    "type": "achievement",
+    "name": "убить зомбированного свободовца.",
+	"description":"Теперь ты как никогда нуждаешься в свободе?",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированный_свободовец_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_зомбированый_ученый_kills",
+    "type": "achievement",
+    "name": "убить зомбированного ученого",
+	"description":"вы забыли провести калибровку?",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированный_ученый_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_зомбированый_долг_kills",
+    "type": "achievement",
+    "name": "Убить зомбированного долговца.",
+	"description":"вы должны били боротся с зоной, а не примкнуть к ней.",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированный_долговец_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_зомбированый_последнего_дня_kills",
+    "type": "achievement",
+    "name": "убить зомбированного последнего дня.",
+	"description":"Иронично...",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированный_последнего_дня_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_зомбированый_бандит_kills",
+    "type": "achievement",
+    "name": "убить зомбированного бандита.",
+	"description":"Не по понятием.",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированный_бандит_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+  },
+  {
+    "id": "achievement_зомбированый_чисто_небовец_kills",
+    "type": "achievement",
+    "name": "убить зомбированного чисто небовца.",
+	"description":"Видимо в тот день было пасмурно...",
+    "requirements": [ { "event_statistic": "num_avatar_зомбированный_чисто_небовец_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
   },
   {
     "id": "achievement_mutant_kills",

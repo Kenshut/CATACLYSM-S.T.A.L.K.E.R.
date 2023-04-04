@@ -7,7 +7,7 @@
 	"subcategory": "CSC_СТАЛКЕР_ИНСТРУМЕНТЫ",
     "skill_used": "workart",
     "difficulty": 2,
-    "time": 120000,
+    "time": "1 h",
 	"autolearn": [ [ "workart", 0 ] ],
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
@@ -23,7 +23,7 @@
 	"subcategory": "CSC_СТАЛКЕР_ДЕТАЛИ",
     "skill_used": "workart",
     "difficulty": 8,
-    "time": 120000,
+    "time": "10 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts3" },
@@ -41,7 +41,7 @@
 	"subcategory": "CSC_СТАЛКЕР_ИНСТРУМЕНТЫ",
     "skill_used": "workart",
     "difficulty": 2,
-    "time": 660000,
+    "time": "2 h",
 	"qualities": [ { "id": "ks_ARTCRAFT", "level": 1 } ],
 	"autolearn": [ [ "workart", 5 ] ],
 	    "proficiencies": [
@@ -59,7 +59,7 @@
     "skill_used": "survival",
     "difficulty": 4,
 	"autolearn": [ [ "survival", 2 ] ],
-    "time": 120000,
+    "time": "20 m",
     "components": [ [ [ "knife_combat",1 ],[ "knife_hunting",1],[ "knife_rambo",1],[ "knife_rm42",1],[ "knife_swissarmy",1],[ "makeshift_knife",1] ],[ [ "scrap", 60 ],[ "steel_chunk", 10 ],[ "steel_lump", 3 ] ]] 
   },
   {
@@ -71,7 +71,7 @@
 	"autolearn": [ [ "workart", 5 ] ],
     "skill_used": "workart",
     "difficulty": 6,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -90,7 +90,7 @@
 	"autolearn": [ [ "workart", 4 ] ],
     "skill_used": "workart",
     "difficulty": 5,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -109,7 +109,7 @@
 	"autolearn": [ [ "workart", 5 ] ],
     "skill_used": "workart",
     "difficulty": 6,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -128,7 +128,7 @@
 	"autolearn": [ [ "workart", 5 ] ],
     "skill_used": "workart",
     "difficulty": 6,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -147,7 +147,7 @@
 	"autolearn": [ [ "workart", 5 ] ],
     "skill_used": "workart",
     "difficulty": 6,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -166,7 +166,7 @@
 	"autolearn": [ [ "workart", 6 ] ],
     "skill_used": "workart",
     "difficulty": 7,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -185,7 +185,7 @@
 	"autolearn": [ [ "workart", 7 ] ],
     "skill_used": "workart",
     "difficulty": 8,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -204,7 +204,7 @@
 	"autolearn": [ [ "workart", 4 ] ],
     "skill_used": "workart",
     "difficulty": 5,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -223,7 +223,7 @@
 	"autolearn": [ [ "workart", 3 ] ],
     "skill_used": "workart",
     "difficulty": 4,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -242,7 +242,7 @@
 	"autolearn": [ [ "workart", 8 ] ],
     "skill_used": "workart",
     "difficulty": 9,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -261,7 +261,7 @@
 	"autolearn": [ [ "workart", 3 ] ],
     "skill_used": "workart",
     "difficulty": 4,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -280,7 +280,7 @@
 	"autolearn": [ [ "workart", 2 ] ],
     "skill_used": "workart",
     "difficulty": 3,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -299,7 +299,7 @@
 	"autolearn": [ [ "workart", 2 ] ],
     "skill_used": "workart",
     "difficulty": 3,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -318,7 +318,7 @@
 	"autolearn": [ [ "workart", 2 ] ],
     "skill_used": "workart",
     "difficulty": 3,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -337,7 +337,7 @@
 	"autolearn": [ [ "workart", 2 ] ],
     "skill_used": "workart",
     "difficulty": 3,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -356,7 +356,7 @@
 	"autolearn": [ [ "workart", 6 ] ],
     "skill_used": "workart",
     "difficulty": 7,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -375,7 +375,7 @@
 	"autolearn": [ [ "workart", 4 ] ],
     "skill_used": "workart",
     "difficulty": 5,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -394,7 +394,7 @@
 	"autolearn": [ [ "workart", 8 ] ],
     "skill_used": "workart",
     "difficulty": 9,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -413,7 +413,7 @@
 	"autolearn": [ [ "workart", 5 ] ],
     "skill_used": "workart",
     "difficulty": 6,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -432,7 +432,7 @@
 	"autolearn": [ [ "workart", 4 ] ],
     "skill_used": "workart",
     "difficulty": 5,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -451,7 +451,7 @@
 	"autolearn": [ [ "workart", 9 ] ],
     "skill_used": "workart",
     "difficulty": 10,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -470,7 +470,7 @@
 	"autolearn": [ [ "workart", 9 ] ],
     "skill_used": "workart",
     "difficulty": 10,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -489,7 +489,7 @@
 	"autolearn": [ [ "workart", 1 ] ],
     "skill_used": "workart",
     "difficulty": 2,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },
@@ -508,7 +508,7 @@
 	"autolearn": [ [ "workart", 2 ] ],
     "skill_used": "workart",
     "difficulty": 3,
-    "time": 120000,
+    "time": "20 m",
 	    "proficiencies": [
       { "proficiency": "prof_arts" },
 	  { "proficiency": "prof_arts2" },

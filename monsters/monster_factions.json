@@ -38,6 +38,12 @@
   },
   {
     "type": "MONSTER_FACTION",
+    "name": "кровосос",
+
+    "neutral": [ "кровосос" ,"insect" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "Barsick",
 
     "neutral": [ "Barsick" ,"insect" ]

@@ -12,6 +12,19 @@
     "display_field": true,
     "looks_like": "fd_nuke_gas"
   },
+    {
+    "id": "fd_shock_vent",
+    "type": "field_type",
+    "legacy_enum_id": 22,
+    "intensity_levels": [ { "name": "shock vent", "sym": "&" }, { "//": "repeat last entry" }, { "//": "repeat last entry" } ],
+    "description_affix": "under",
+    "has_elec": true,
+    "priority": -1,
+    "phase": "plasma",
+    "display_items": false,
+    "display_field": true,
+    "looks_like": "fd_electricity"
+  },
   {
     "id": "fd_hot_gas_vent",
     "type": "field_type",

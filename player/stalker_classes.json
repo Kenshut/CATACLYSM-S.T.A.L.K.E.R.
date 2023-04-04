@@ -11,13 +11,13 @@
     ],
     "items": {
       "both": {
-        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants", "mocassins"],
+        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants", "mocassins","shoulder_holster"],
         "entries": [
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makeshift_knife"},
-		  { "item": "makarov", "custom-flags": [ "auto_wield" ] }
+		  { "item": "makarov" }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -38,13 +38,13 @@
 	"CBMs": [ "bio_st_armor_arms", "bio_st_armor_eyes", "bio_st_armor_head", "bio_st_armor_legs", "bio_power_storage_mkII", "bio_st_armor_torso", "bio_st_carbon","bio_metabolics"],
     "items": {
       "both": {
-        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants", "mocassins", "ks_art_bracelet_glassm", "ks_art_bracelet_glass"],
+        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants", "mocassins", "ks_art_bracelet_glassm", "ks_art_bracelet_glass","shoulder_holster"],
         "entries": [
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makeshift_knife"},
-		  { "item": "makarov", "custom-flags": [ "auto_wield" ] }
+		  { "item": "makarov"}
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -81,12 +81,12 @@
     ],
     "items": {
       "both": {
-        "items": [ "bandana","stalker_gloves","stalker_jacket","stalker_pants", "mocassins"],
+        "items": [ "bandana","stalker_gloves","stalker_jacket","stalker_pants", "mocassins","back_holster"],
         "entries": [
 		  { "item": "uzimag_25rd", "ammo-item": "9mm", "charges": 25 },
 		  { "item": "uzimag_25rd", "ammo-item": "9mm", "charges": 25 },
 		  { "item": "knife_hunting"},
-		  { "item": "uzi", "custom-flags": [ "auto_wield" ] }
+		  { "item": "uzi"}
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -159,13 +159,13 @@
 	"pets": [ { "name": "mon_stalker_tushkan", "amount": 1 } ],
    "items": {
       "both": {
-        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants","mocassins"],
+        "items": [ "bandana","stalker_nv_gloves","stalker_nv_jacket","stalker_nv_pants","mocassins","shoulder_holster"],
         "entries": [
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
 		  { "item": "makeshift_knife"},
-		  { "item": "makarov", "custom-flags": [ "auto_wield" ] }
+		  { "item": "makarov"}
         ]
       },
       "male": [ "boxer_shorts" ],

@@ -1,6 +1,56 @@
+[
   {
     "type": "SPECIES",
     "id": "зомбированный",
     "description": "зомбированный",
     "bleeds": "fd_blood"
+  },
+  {
+    "type": "SPECIES",
+    "id": "зомбированный_чисто_небовец",
+    "description": "зомбированный чисто небовец",
+    "bleeds": "fd_blood"
+  },
+  {
+    "type": "SPECIES",
+    "id": "зомбированный_бандит",
+    "description": "зомбированный бандит",
+    "bleeds": "fd_blood"
+  },
+  {
+    "type": "SPECIES",
+    "id": "зомбированный_последнего_дня",
+    "description": "зомбированный последнего дня",
+    "bleeds": "fd_blood"
+  },
+  {
+    "type": "SPECIES",
+    "id": "зомбированный_долговец",
+    "description": "зомбированный долговец",
+    "bleeds": "fd_blood"
+  },
+  {
+    "type": "SPECIES",
+    "id": "зомбированный_ученый",
+    "description": "зомбированный ученый",
+    "bleeds": "fd_blood"
+  },
+  {
+    "type": "SPECIES",
+    "id": "зомбированный_свободовец",
+    "description": "зомбированный свободовец",
+    "bleeds": "fd_blood"
+  },
+  {
+    "type": "SPECIES",
+    "id": "зомбированный_сталкер",
+    "description": "зомбированный сталкер",
+    "bleeds": "fd_blood"
+  },
+    {
+    "type": "SPECIES",
+    "id": "зомбированный_солдат",
+    "description": "зомбированный солдат",
+    "bleeds": "fd_blood"
   }
+  ]

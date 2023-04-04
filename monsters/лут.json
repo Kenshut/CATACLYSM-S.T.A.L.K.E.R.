@@ -8,6 +8,22 @@
 	]
   },
   {
+    "id": "новичёк",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ 
+	["stalker_nv_pants",100],["stalker_nv_gloves",100],["stalker_nv_jacket",100],["mocassins",100]
+	]
+  },
+  {
+    "id": "среднячёк",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ 
+	["stalker_pants",100],["stalker_gloves",100],["stalker_jacket",100],["mocassins",100]
+	]
+  },
+  {
     "id": "дробовик",
     "type": "item_group",
     "subtype": "collection",
@@ -22,6 +38,86 @@
     "items": [ 
 	["ak74",100]
 	]
+  },
+  {
+    "id": "лут_зомбированого_сталкер_дробь",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 60,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "среднячёк", "prob": 65, "damage": [ 1, 4 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "дробовик", "contents-item": "shoulder_strap", "prob": 75, "damage": [ 1, 4 ] }
+        ]
+      },
+      { "items": "adhesive_bandages", "prob": 30 }
+    ]
+  },
+  {
+    "id": "лут_зомбированого_сталкер",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 60,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "среднячёк", "prob": 65, "damage": [ 1, 4 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "пистол", "contents-item": "shoulder_strap", "prob": 75, "damage": [ 1, 4 ] }
+        ]
+      },
+      { "items": "adhesive_bandages", "prob": 30 }
+    ]
+  },
+  {
+    "id": "лут_зомбированого_новичёк_сталкер_дробь",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 60,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "новичёк", "prob": 65, "damage": [ 1, 4 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "дробовик", "contents-item": "shoulder_strap", "prob": 75, "damage": [ 1, 4 ] }
+        ]
+      },
+      { "items": "adhesive_bandages", "prob": 30 }
+    ]
+  },
+  {
+    "id": "лут_зомбированого_новичёк_сталкер",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 60,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "новичёк", "prob": 65, "damage": [ 1, 4 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "пистол", "contents-item": "shoulder_strap", "prob": 75, "damage": [ 1, 4 ] }
+        ]
+      },
+      { "items": "adhesive_bandages", "prob": 30 }
+    ]
   },
   {
     "id": "лут_зомбированого",

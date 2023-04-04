@@ -26,6 +26,110 @@
     "description": { "str": "Зомбированных убито", "str_pl": "Зомбированных убито" }
   },
   {
+    "id": "avatar_зомбированный_чисто_небовец_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный_чисто_небовец" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированный_чисто_небовец_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_зомбированный_чисто_небовец_kills",
+    "description": { "str": "Зомбированных чисто небовцев убито", "str_pl": "Зомбированных чисто небовцев убито" }
+  },
+  {
+    "id": "avatar_зомбированный_бандит_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный_бандит" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированный_бандит_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_зомбированный_бандит_kills",
+    "description": { "str": "Зомбированных бандитов убито", "str_pl": "Зомбированных бандитов убито" }
+  },
+  {
+    "id": "avatar_зомбированный_последнего_дня_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный_последнего_дня" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированный_последнего_дня_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_зомбированный_последнего_дня_kills",
+    "description": { "str": "Зомбированных последнего дня убито", "str_pl": "Зомбированных последнего дня убито" }
+  },
+  {
+    "id": "avatar_зомбированный_долговец_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный_долговец" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированный_долговец_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_зомбированный_долговец_kills",
+    "description": { "str": "Зомбированных долговцев убито", "str_pl": "Зомбированных долговцев убито" }
+  },
+  {
+    "id": "avatar_зомбированный_ученый_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный_ученый" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированный_ученый_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_зомбированный_ученый_kills",
+    "description": { "str": "Зомбированных ученых убито", "str_pl": "Зомбированных ученых убито" }
+  },
+  {
+    "id": "avatar_зомбированный_свободовец_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный_свободовец" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированный_свободовец_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_зомбированный_свободовец_kills",
+    "description": { "str": "Зомбированных свободовцев убито", "str_pl": "Зомбированных свободовцев убито" }
+  },
+  {
+    "id": "avatar_зомбированный_сталкер_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный_сталкер" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированный_сталкер_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_зомбированный_сталкер_kills",
+    "description": { "str": "Зомбированных сталкеров убито", "str_pl": "Зомбированных сталкеров убито" }
+  },
+  {
+    "id": "avatar_зомбированный_солдат_kills",
+    "type": "event_transformation",
+    "event_transformation": "avatar_species_kills",
+    "value_constraints": { "species": { "equals": [ "species_id", "зомбированный_солдат" ] } }
+  },
+  {
+    "id": "num_avatar_зомбированный_солдат_kills",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_зомбированный_солдат_kills",
+    "description": { "str": "Зомбированных солдат убито", "str_pl": "Зомбированных солдат убито" }
+  },
+  {
     "id": "avatar_gains_workart_level_7",
     "type": "event_transformation",
     "event_type": "gains_skill_level",

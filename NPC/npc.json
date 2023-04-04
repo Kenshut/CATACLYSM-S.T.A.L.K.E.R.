@@ -2,7 +2,6 @@
   {
     "type": "npc",
     "id": "Монолитовец",
-    "//": "Generic pistol/rifle focused guard for the Hell's Raiders faction.",
     "name_suffix": "Монолитовец",
     "class": "NC_монолит",
     "attitude": 0,
@@ -28,12 +27,102 @@
     "type": "item_group",
     "id": "вещи_монолита",
     "subtype": "collection",
-    "entries": [ { "item": "50bmg" },{ "item": "50bmg" } ]
+    "entries": [ { "item": "50bmg" }]
   },
     {
     "type": "item_group",
     "id": "Оружие_монолита",
     "subtype": "collection",
     "entries": [ { "item": "m2browning_sawn" } ]
+  },
+  {
+    "type": "npc",
+    "id": "сидор",
+	"name_unique": "Сидорович",
+	"gender": "male",
+	"mission_offered": ["убитьбандитов","достать_5_голов_тушкана"],
+    "class": "сидор",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "сидор",
+    "faction": "Бункер_сидора"
+  },
+  {
+    "type": "item_group",
+    "id": "сидораинстру",
+    "subtype": "collection",
+    "entries": [
+	{ "item": "multitool", "prob": 1, "count": [ 1, 2 ] },
+	{ "item": "hammer", "prob": 1, "count": [ 1, 2 ] },
+	{ "item": "saw", "prob": 1, "count": [ 1, 2 ] },
+	{ "item": "hacksaw", "prob": 1, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "сидораинстру_tire2",
+    "subtype": "collection",
+    "entries": [
+	{ "item": "misc_repairkit", "prob": 1, "count": [ 1,1 ] },
+	{ "item": "medium_disposable_cell", "prob": 2, "count": [ 1,2 ] },
+	{ "item": "large_repairkit", "prob": 1, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "сидорааптека",
+    "subtype": "collection",
+    "entries": [
+	  { "item": "bandages", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "adhesive_bandages", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "alcohol_wipes", "prob": 10, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "сидорассорти",
+    "subtype": "collection",
+    "entries": [
+	  { "item": "can_tuna", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "can_salmon", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "apple_canned", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "can_sardine", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "offal_canned", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "can_pineapple", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "meat_canned", "prob": 10, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "сидорапистоль",
+    "subtype": "collection",
+    "entries": [
+	  { "item": "9x18mm", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "9x18mmfmj", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "9x18mmP2", "prob": 10, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "сидорадробь",
+    "subtype": "collection",
+    "entries": [
+      { "item": "shot_00", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "shot_he", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "shot_flechette", "prob": 10, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "сидор",
+    "subtype": "collection",
+    "entries": [
+      { "item": "boxer_briefs" },
+      { "item": "socks" },
+	  { "item": "backpack" },
+      { "item": "штаны_сидор" },
+	  { "item": "boots_combat" },
+      { "item": "куртка_сидора" }
+    ]
   }
 ]

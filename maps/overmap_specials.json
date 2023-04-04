@@ -10,5 +10,19 @@
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 0, -1 ],
     "occurrences": [ 0, 1 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "бункер_сидор",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "бункерсидор" }, 
+	 { "point": [ 0, 0, 1 ], "overmap": "бункер_сталкер_крышасидор" },
+	 { "point": [ 0, 0, -1 ], "overmap": "бункер_сталкер_низсидор" },
+	 { "point": [ 0, 0, -2 ], "overmap": "бункер_сталкер_низсидор2" },
+	 { "point": [ 0, 0, -3 ], "overmap": "бункер_сталкер_сидоровичь" }
+	],
+    "locations": [ "land" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 1 ]
   }
 ]

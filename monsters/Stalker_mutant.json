@@ -1,5 +1,56 @@
 [
 {
+	"id": "кровосос",
+    "type": "MONSTER",
+    "name": { "str": "Кровосос" },
+    "description": "Кровосос выше человеческого роста, сутулый, без волосяного покрова.На месте рта имеется 4 щупальца, расположенных по диагонали. Само тело мутанта худое, хорошо видны рёбра, но имеет ярко выраженную мышечную массу, что объясняет физическую силу. Кисти кровососа от человеческих отличаются размером и длиной ногтей, являющихся его основным оружием. Ступни же заметно изменены — они имеют только 3 пальца с когтями..",
+    "default_faction": "кровосос",
+    "bodytype": "human",
+    "categories": [ "CLASSIC" ],
+    "species": [ "MUTANT" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 300,
+    "speed": 150,
+    "material": [ "flesh" ],
+    "symbol": "K",
+    "color": "red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 8,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_cut": 10,
+    "dodge": 4,
+	"melee_damage": [ { "damage_type": "cut", "amount": 10 } ],
+	"anger_triggers": [ "FRIEND_DIED","FRIEND_ATTACKED","PLAYER_CLOSE" ],
+	"vision_day": 30,
+    "vision_night": 30,
+    "harvest": "кровосос_части_тела",
+    "special_attacks": [
+	{
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "ударкровосиси",
+    "cooldown": 10,
+    "move_cost": 150,
+    "damage_max_instance": [ { "damage_type": "stab", "amount": 35, "armor_penetration": 60, "armor_multiplier": 0.5 } ],
+    "hitsize_min": 4,
+    "effects": [ { "id": "bleed", "duration": 700, "affect_hit_bp": true } ],
+    "hit_dmg_u": "%1$s impales your %2$s!",
+    "hit_dmg_npc": "%1$s impales <npcname>!",
+    "miss_msg_u": "%1$s tries to impale your %2$s, but you dodge!",
+    "miss_msg_npc": "%1$s tries to impale <npcname>, but they dodge!",
+    "no_dmg_msg_u": "%1$s tries to impale your %2$s, but fails to penetrate your armor!",
+    "no_dmg_msg_npc": "%1$s tries to impale <npcname>, but fails to penetrate their armor!",
+    "dodgeable": true,
+    "blockable": true
+  }
+	],
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE","FILTHY","HIT_AND_RUN" ]
+	
+},
+{
     "id": "mon_stalker_psevdo_dog",
     "type": "MONSTER",
     "name": { "str": "Пвсевдо собака" },
@@ -193,6 +244,24 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE"]
   },
   {
+    "id": "топот",
+    "type": "SPELL",
+    "name": "топот",
+    "description": "Ебажит по земле, тот самый знаменитый удар по земле.",
+    "effect": "attack",
+    "shape": "line",
+    "valid_targets": [ "self", "ally", "hostile", "ground" ],
+    "flags": [ "LOUD"],
+    "min_damage": 30,
+    "max_damage": 30,
+    "damage_type": "bash",
+    "min_range": 1,
+    "max_range": 1,
+    "min_aoe": 6,
+    "max_aoe": 6
+  },
+  
+  {
     "id": "mon_stalker_Psevdogigantrofl",
     "type": "MONSTER",
     "name": { "str": "Псевдо чебурашка" },
@@ -214,6 +283,7 @@
     "morale": 100,
     "melee_skill": 20,
     "melee_dice": 5,
+	"special_attacks": [ { "type": "spell", "spell_data": { "id": "топот" }, "cooldown": 10 } ],
     "melee_dice_sides": 8,
     "melee_damage": [
   {
@@ -249,6 +319,7 @@
     "hp": 1000,
     "speed": 90,
     "attack_cost": 89,
+	"special_attacks": [ { "type": "spell", "spell_data": { "id": "топот" }, "cooldown": 10 } ],
     "material": [ "flesh" ],
     "symbol": "G",
     "color": "light_gray",

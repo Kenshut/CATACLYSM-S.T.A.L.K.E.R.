@@ -25,5 +25,50 @@
     "color": "i_red",
     "see_cost": 2,
     "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
+  },
+  {
+    "id": "бункерсидор",
+    "type": "overmap_terrain",
+    "name": "странное здание",
+    "sym": "O",
+    "color": "i_red",
+    "see_cost": 2,
+    "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
+  },
+  {
+    "id": "бункер_сталкер_низсидор",
+    "type": "overmap_terrain",
+    "name": "странное здание",
+    "sym": "O",
+    "color": "i_red",
+    "see_cost": 2,
+    "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
+  },
+  {
+    "id": "бункер_сталкер_низсидор2",
+    "type": "overmap_terrain",
+    "name": "странное здание",
+    "sym": "O",
+    "color": "i_red",
+    "see_cost": 2,
+    "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
+  },
+  {
+    "id": "бункер_сталкер_сидоровичь",
+    "type": "overmap_terrain",
+    "name": "странное здание",
+    "sym": "O",
+    "color": "i_red",
+    "see_cost": 2,
+    "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
+  },
+  {
+    "id": "бункер_сталкер_крышасидор",
+    "type": "overmap_terrain",
+    "name": "странное здание",
+    "sym": "O",
+    "color": "i_red",
+    "see_cost": 2,
+    "flags": [ "SOURCE_FOOD", "SOURCE_GUN","NO_ROTATE", "SOURCE_AMMO" ]
   }
 ]
