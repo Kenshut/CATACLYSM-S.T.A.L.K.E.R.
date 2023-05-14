@@ -1,0 +1,67 @@
+[{
+    "type": "effect_on_condition",
+    "id": "сценарий_приветствия",
+    "//": "Так, тут у нас приветсвие и уведомление.",
+    "eoc_type": "SCENARIO_SPECIFIC",
+    "effect": [
+      {
+        "u_message": "Здравствуй, дорогой игрок!\n\nХочу тебе сообщить, ты играешь в очень сырой и кривой мод, так что не ожидай, что тут будет хоть что-то интересное",
+        "popup": true
+      },
+	  {
+        "u_message": "А теперь давай выберем сложность игры",
+        "popup": true
+      },
+	   { "run_eocs": [ "сложности" ] }	 
+	  ]
+},
+{
+    "type": "effect_on_condition",
+    "id": "сложности",
+    "condition": {
+      "u_query": "КАЗУАЛЬНАЯ\n\nНа этой сложности вам с самого начала дают умения из ветки сталкера\n\nЕсли вы отказываетесь, то вы будете играть на предполагаемой мной сложности",
+      "default": true
+    },
+    "effect": [
+      {
+        "u_message": "Сложность установлена на казуальную. "
+      },
+	   { "arithmetic": [ { "u_val": "proficiency", "proficiency_id": "prof_arts","format": "percent" }, "=", { "const": 100 } ] },
+	   { "arithmetic": [ { "u_val": "proficiency", "proficiency_id": "prof_arts2","format": "percent" }, "=", { "const": 100 } ] },
+	   { "arithmetic": [ { "u_val": "proficiency", "proficiency_id": "prof_arts3","format": "percent" }, "=", { "const": 100 } ] },
+	   { "arithmetic": [ { "u_val": "proficiency", "proficiency_id": "prof_mutants2","format": "percent" }, "=", { "const": 100 } ] },
+	   { "arithmetic": [ { "u_val": "proficiency", "proficiency_id": "prof_mutants","format": "percent" }, "=", { "const": 100 } ] }
+    ],
+    "false_effect": [
+	  {
+        "u_message": "Сложность установлена на нормальную. "
+      }
+	]
+  },
+  {
+    "//": "This one is for NPC followers.  There might be a better alternative.",
+    "type": "effect_on_condition",
+    "id": "EOC_REMOVE_SKILL_RUST_ON_KILL",
+    "eoc_type": "EVENT",
+    "required_event": "character_kills_monster",
+    "effect": [
+      {
+        "u_message": "Ты убил его",
+        "popup": true
+      }
+    ]
+  },
+  {
+    "//": "This one is for NPC followers.  There might be a better alternative.",
+    "type": "effect_on_condition",
+    "id": "убивица",
+    "eoc_type": "EVENT",
+    "required_event": "character_kills_monster",
+    "effect": [
+     {
+        "u_message": "Ты убил его",
+        "popup": true
+      }
+    ]
+  }
+]

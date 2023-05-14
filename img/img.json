@@ -1,0 +1,48 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UltimateCataclysm", "UltimateCataclysmDemo","UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockXottoplus","Cuteclysm","Chibi_Ultica"],
+    "tiles-new": [
+      {
+        "file": "img/img.png",
+        "tiles": [
+          { "id": "af_electra_dummy", "fg": 0 },
+		  { "id": "af_dummy_dummy", "fg": 1 },
+		  { "id": "ks_Batar", "fg": 2 },
+		  { "id": "af_balvanka", "fg": 3 },
+		  { "id": "af_electra_sparkler", "fg": 4 },
+		  { "id": "af_eye", "fg": 5 },
+		  { "id": "af_drops", "fg": 6 },
+		  { "id": "af_dummy_glassbead", "fg": 7 },
+		  { "id": "af_dummy_glassbeads", "fg": 8 },
+		  { "id": "af_fireball", "fg": 9 },
+		  { "id": "af_fireballs", "fg": 10 },
+		  { "id": "af_fire", "fg": 11 },
+		  { "id": "af_cristall", "fg": 12 },
+		  { "id": "af_cristalls", "fg": 13 },
+		  { "id": "af_ameba_mica", "fg": 14 },
+		  { "id": "af_baloon", "fg": 15 },
+		  { "id": "af_electra_flash", "fg": 16 },
+		  { "id": "ks_af_glass", "fg": 17 },
+		  { "id": "af_ameba_slime", "fg": 18 },
+		  { "id": "кровосос", "fg": 19 },
+		  { "id": "кровосос1", "fg": 20 },
+		  { "id": "снорк", "fg": 21 },
+		  { "id": "снорклюд", "fg": 22 }
+        ],
+        "sprite_width": 32,
+        "sprite_height": 32
+      },
+	  {
+        "file": "img/80.png",
+        "tiles": [
+          { "id": "mon_stalker_horse", "fg": 56, "rotates": false  }
+        ],
+        "sprite_width": 64,
+        "sprite_height": 64,
+		"sprite_offset_x": 0,
+      "sprite_offset_y": -25
+      }
+    ]
+  }
+]

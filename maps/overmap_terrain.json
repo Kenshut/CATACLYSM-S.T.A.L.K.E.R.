@@ -1,4 +1,130 @@
 [
+{
+    "id": "КРОВОСИС",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "КРОВОСИС1",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "барсик",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "барсик1",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "крысы",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "крысы1",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "кабаны_и_плоть",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "кабаны_и_плоть1",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "гигант",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "гигант1",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "снорки",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "снорки1",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "химеры",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "химеры1",
+    "type": "overmap_terrain",
+    "name": "пещера",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 2,
+	 "flags": [  "NO_ROTATE" ]
+  },
   {
     "id": "бункер",
     "type": "overmap_terrain",

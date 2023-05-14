@@ -20,7 +20,7 @@
       { "power_min": 0, "id": "epilogue_faction_hells_raiders_0" },
       { "power_max": 150, "id": "epilogue_faction_hells_raiders_150" }
     ],
-    "description": "Их разум поврежден слишком сильно поврежден."
+    "description": "Их разум поврежден, слишком сильно поврежден..."
   },
   {
     "type": "faction",

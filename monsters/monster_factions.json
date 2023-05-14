@@ -2,7 +2,20 @@
   {
     "type": "MONSTER_FACTION",
     "name": "Tushkan",
-	"neutral": [ "insect","Tushkan"]
+	"neutral": [ "Psevdogigant","insect","Tushkan"]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "кабан",
+"friendly": [ "плоть" ]
+    
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "плоть",
+	"neutral": [ "dog" ],
+"friendly": [ "кабан" ]
+    
   },
   {
     "type": "MONSTER_FACTION",
@@ -14,6 +27,7 @@
   {
     "type": "MONSTER_FACTION",
 	 "friendly": [ "zombie" ],
+	 "neutral": [ "снорк" ],
     "name": "зомбированые"
   },
     {
@@ -29,12 +43,18 @@
   {
     "type": "MONSTER_FACTION",
     "name": "Psevdogigant",
-    "neutral": [ "Psevdogigant","insect" ]
+    "neutral": [ "Psevdogigant","insect","Tushkan" ]
   },
     {
     "type": "MONSTER_FACTION",
     "name": "Psevdogigantrofl",
     "neutral": [ "Psevdogigantrofl","insect" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "снорк",
+
+    "neutral": [ "снорк" ,"зомбированые" ]
   },
   {
     "type": "MONSTER_FACTION",

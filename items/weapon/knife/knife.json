@@ -29,6 +29,36 @@
     "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
   },
   {
+    "id": "himera_knife1",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "Нож из когтя химеры+", "str_pl": "Ножи из когтя химеры+" },
+    "description": "Крайне острый и прочный. Обычно является трофейным оружием сталкеров мастеров.(Покрыт ферментом)",
+    "weight": "188 g",
+    "volume": "750 ml",
+    "longest_side": "30 cm",
+    "price": 10000,
+    "price_postapoc": 10000,
+    "bashing": 4,
+	 
+    "cutting": 40,
+    "material": [ "bone", "wood" ],
+    "symbol": "/",
+    "color": "dark_gray",
+    "gunmod_data": {
+      "location": "underbarrel",
+      "mod_targets": [ "shotgun", "rifle" ],
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
+      "install_time": "5 s"
+    },
+    "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ],
+    "techniques": [ "RAPID", "WBLOCK_1" ],
+    "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 30 ] ],
+    "thrown_damage": [ { "damage_type": "stab", "amount": 20 } ],
+	"effects": [ { "id": "bleed", "duration": 700, "affect_hit_bp": true } ],
+    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
+  },
+  {
     "id": "barsik_knife",
     "type": "TOOL",
     "category": "weapons",
@@ -53,7 +83,7 @@
     },
     "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ],
     "techniques": [ "RAPID", "WBLOCK_1" ],
-    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 15 ] ],
+    "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 15 ] ],
     "thrown_damage": [ { "damage_type": "stab", "amount": 9 } ],
     "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
   }

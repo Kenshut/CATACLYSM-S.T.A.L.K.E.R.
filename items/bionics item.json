@@ -6,7 +6,6 @@
     "name": { "str": "abstract bionic module" },
     "weight": "2041 g",
     "volume": "2500 ml",
-    "bashing": 8,
     "material": [ "Металючька", "plastic" ],
     "symbol": ":",
     "color": "yellow",

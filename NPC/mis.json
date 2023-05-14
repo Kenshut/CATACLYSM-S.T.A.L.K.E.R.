@@ -1,0 +1,195 @@
+[
+{
+    "id": "убитьбандитов",
+    "type": "mission_definition",
+    "name": { "str": "КОНТРАКТ - Убить бандитов" },
+    "description": "Сидорович послал меня <color_red>убить бандитов</color>. ну а мне что? деньги не пахнут.",
+    "goal": "MGOAL_ASSASSINATE",
+    "difficulty": 5,
+    "value": 5000,
+    "start": {
+      "assign_mission_target": { "om_terrain": "field","z": 0, "reveal_radius": 1, "random": true, "search_range": 80 },
+      "update_mapgen": {
+        "rows": [
+          "                        ",
+          "                        ",
+          "                        ",
+          "      ggggggggggggg     ",
+          "      ggggggggggggg     ",
+          "      gg....R...ggg     ",
+          "      gg........ggg     ",
+          "      gg.......Rggg     ",
+          "      gg.F..a...ggg     ",
+          "      gg........ggg     ",
+          "      gg........ggg     ",
+          "      gg........ggg     ",
+          "      gg........ggg     ",
+          "      gg........ggg     ",
+          "      ggggggggggggg     ",
+          "      ggggggggggggg     ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "            b b         ",
+          "           b bb         ",
+          "             b          ",
+          "                        ",
+          "                        "
+        ],
+        "flags": [ "ALLOW_TERRAIN_UNDER_OTHER_DATA" ],
+        "terrain": {
+          "g": "t_region_groundcover",
+          ".": "t_region_groundcover_barren",
+          "a": "t_region_groundcover_barren",
+          "b": "t_region_groundcover_barren",
+          "R": "t_region_groundcover_barren",
+          "F": "t_region_groundcover_barren"
+        },
+        "furniture": { "a": "f_ash" },
+        "traps": { "F": "tr_fur_rollmat", "R": "tr_rollmat" },
+        "fields": { "b": { "field": "fd_blood", "intensity": 1 } },
+        "place_loot": [
+          { "group": "cannedfood", "x": [ 6, 18 ], "y": [ 3, 15 ], "chance": 100 },
+          { "group": "alcohol_bottled_canned", "x": [ 6, 18 ], "y": [ 3, 15 ], "repeat": 5, "chance": 75 },
+          { "group": "trash_forest", "x": [ 6, 18 ], "y": [ 3, 15 ], "repeat": 2, "chance": 75 },
+          { "group": "stash_drugs", "x": [ 6, 18 ], "y": [ 3, 15 ], "chance": 75 },
+          { "group": "dresser", "x": [ 9, 10 ], "y": [ 10, 14 ], "chance": 75 },
+          { "group": "softdrugs", "x": [ 9, 10 ], "y": [ 10, 14 ], "chance": 50 },
+          { "group": "camping", "x": [ 9, 10 ], "y": [ 10, 14 ], "chance": 75 },
+          { "group": "casings", "x": [ 10, 15 ], "y": [ 15, 18 ], "repeat": 5, "chance": 100 }
+          
+        ],
+        "place_npcs": [
+          { "class": "bandit", "x": 15, "y": 7 },
+          { "class": "thug", "x": 12, "y": 5 },
+          { "class": "bandit", "x": 9, "y": 8, "target": true }
+        ]
+      }
+    },
+    "end": {
+      "effect": [
+        { "u_spawn_item": "деньги", "count": 2000 },
+	     { "arithmetic": [ { "npc_val": "npc_trust" }, "++" ] }, 
+        { "u_add_var": "убитьсталкера", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+	"followup": "убитьмонолитовца",
+    "dialogue": {
+      "describe": "Надо устранить бандитов.",
+      "offer": "недалеко от меня остановились бандиты и они мешают моей торговле. За их устранение дам 2000 моей валюты ",
+      "accepted": "Давай побыстрее",
+      "rejected": "Ну как хочешь.",
+      "advice": "Ты сам должен с этим разобраться.",
+      "inquire": "Ты уже порешал их?",
+      "success": "Отлично, вот твои деньги ",
+      "success_lie": "ТЫ МНЕ ВРЕШЬ?!",
+      "failure": "НУ ПИЗДЕЦ! ТЫ КАК ВООБЩЕ УМУДРИЛСЯ?!"
+    }
+  },
+  {
+    "id": "достать_5_голов_тушкана",
+    "type": "mission_definition",
+    "name": { "str": "КОНТРАКТ - Принести 5 голов тушканов" },
+    "description": "Сидоровичу понадобилось целых <color_light_blue>5 голов тушканов</color>, давольно не обычный заказ.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 50000,
+    "item": "ks_head_tushkan",
+	"count": 5,
+    "end": {
+      "effect": [
+        { "u_spawn_item": "деньги", "count": 1000 },
+	     { "arithmetic": [ { "npc_val": "npc_trust" }, "++" ] }, 
+		 { "u_sell_item": "ks_head_tushkan", "count": 5 },
+        { "u_add_var": "тушкан5", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "Головы тушканов",
+      "offer": "Мне тут понадобилось 5 голов тушканов, заплачу тебе 1000 моей валюты.",
+      "accepted": "Давай только побыстрее.",
+      "rejected": "Ну как хочешь.",
+      "advice": "просто отрежь им головы, окей?",
+      "inquire": "Ну как, принес?",
+      "success": "Отлично, вот твои деньги.",
+      "success_lie": "ТЫ ЧТО ПИЗДИШЬ МНЕ ТУТ?!",
+      "failure": "КАК ТЫ БЛЯТЬ УМУДРИЛСЯ?!"
+    }
+  },
+  {
+    "id": "убитьмонолитовца",
+    "type": "mission_definition",
+    "name": { "str": "КОНТРАКТ - Убить монолитовца" },
+    "description": "На этот раз Сидор послал меня <color_red>убить монолитовца</color>. Интересно, почему же монолит все еще действует?",
+    "goal": "MGOAL_ASSASSINATE",
+    "difficulty": 5,
+    "value": 5000,
+    "start": {
+      "assign_mission_target": { "om_terrain": "field","z": 0, "reveal_radius": 1, "random": true, "search_range": 80 },
+      "update_mapgen": {
+        "rows": [
+          "                        ",
+          "                        ",
+          "                        ",
+          "      ggggggggggggg     ",
+          "      ggggggggggggg     ",
+          "      gg....R...ggg     ",
+          "      gg........ggg     ",
+          "      gg.......Rggg     ",
+          "      gg.F..a...ggg     ",
+          "      gg........ggg     ",
+          "      gg........ggg     ",
+          "      gg........ggg     ",
+          "      gg........ggg     ",
+          "      gg........ggg     ",
+          "      ggggggggggggg     ",
+          "      ggggggggggggg     ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "            b b         ",
+          "           b bb         ",
+          "             b          ",
+          "                        ",
+          "                        "
+        ],
+        "flags": [ "ALLOW_TERRAIN_UNDER_OTHER_DATA" ],
+        "terrain": {
+          "g": "t_region_groundcover",
+          ".": "t_region_groundcover_barren",
+          "a": "t_region_groundcover_barren",
+          "b": "t_region_groundcover_barren",
+          "R": "t_region_groundcover_barren",
+          "F": "t_region_groundcover_barren"
+        },
+        "furniture": { "a": "f_ash" },
+        "traps": { "F": "tr_fur_rollmat", "R": "tr_rollmat" },
+        "fields": { "b": { "field": "fd_blood", "intensity": 1 } },
+        "place_npcs": [
+          { "class": "NC_монолит", "x": 9, "y": 8, "target": true }
+        ]
+      }
+    },
+    "end": {
+      "effect": [
+        { "u_spawn_item": "деньги", "count": 4000 },
+	     { "arithmetic": [ { "npc_val": "npc_trust" }, "++" ] }, 
+        { "u_add_var": "убитьмонолитовца", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "Надо убить монолитовца.",
+      "offer": "Тут недавно появился монолитовец, и он давольно сильно мешает мне. За его устранение дам 4000 моей валюты ",
+      "accepted": "Давай побыстрее",
+      "rejected": "Ну как хочешь.",
+      "advice": "Говорят у него есть оружие на 50 калибр.",
+      "inquire": "Ты уже порешал его?",
+      "success": "Отлично, вот твои деньги ",
+      "success_lie": "ТЫ МНЕ ВРЕШЬ?!",
+      "failure": "НУ ПИЗДЕЦ! ТЫ КАК ВООБЩЕ УМУДРИЛСЯ?!"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "лярд_мутантов",
+    "type": "requirement",
+    "//": "создание из лярда. зачем я это описываю?",
+    "components": [ [ [ "лярд_мутанта", 1 ], [ "лярд_снорка", 1 ] ] ]
+  },
+  {
+    "id": "жир_мутантов",
+    "type": "requirement",
+    "//": "создание из жира. зачем я это описываю?",
+    "components": [ [ [ "жир_мутантов_ст", 1 ], [ "жир_снорка", 1 ] ] ]
+  },
+  {
+    "result": "череп_кровососа_чаша",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 2 } ],
+    "proficiencies": [ { "proficiency": "prof_carving" } ],
+    "components": [ [ [ "череп_кровососа", 1 ] ] ]
+  }
+]

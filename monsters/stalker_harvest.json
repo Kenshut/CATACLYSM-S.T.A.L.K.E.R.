@@ -11,12 +11,34 @@
     "msg_dissect_fail": "провалсборачастеймутантов"
   },
   {
-    "id": "кровосос_части_тела",
+    "id": "снорк_части",
     "type": "harvest",
     "entries": [
-      { "drop": "щупальцакровососа","type": "частимутантов", "base_num": [ 0, 1 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+      { "drop": "skull_human", "type": "bone", "scale_num": [ 1, 1 ], "max": 1 },
+	  { "drop": "ногаснорка", "type": "частимутантов", "scale_num": [ 0, 2 ]},
+      { "drop": "мясоснорка", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "кусочек_мяса_снорка", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "human_liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "human_lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "human_brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "human_sweetbread", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "human_kidney", "type": "offal", "mass_ratio": 0.002 },
+      { "drop": "жир_снорка", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
+      { "drop": "human_marrow", "type": "bone", "mass_ratio": 0.005 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "raw_hleather", "type": "skin", "mass_ratio": 0.01 }
+    ]
+  },
+  {
+    "id": "кабан_части",
+    "type": "harvest",
+    "entries": [
+      { "drop": "Копытокабана","type": "частимутантов", "base_num": [ 0, 4 ] },
+	  { "drop": "мясокабана", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_кабана", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -24,16 +46,52 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "плоть_части",
+    "type": "harvest",
+    "entries": [
+      { "drop": "глазплоти","type": "частимутантов", "base_num": [ 0, 3 ] },
+	  { "drop": "мясоплоти", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_плоти", "type": "flesh", "mass_ratio": 0.05 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
+      { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "кровосос_части_тела",
+    "type": "harvest",
+    "entries": [
+      { "drop": "щупальцакровососа","type": "частимутантов", "base_num": [ 0, 1 ] },
+	  { "drop": "череп_кровососа", "type": "bone", "scale_num": [ 1, 1 ], "max": 1 },
+	  { "drop": "мясоКРОВОСОСА", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_кровососа", "type": "flesh", "mass_ratio": 0.05 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
+      { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
   {
     "id": "stalker_dog_harvest",
     "type": "harvest",
     "entries": [
+	  { "drop": "skull_canis", "type": "bone", "scale_num": [ 1, 1 ], "max": 1 },
       { "drop": "ks_tail_dog","type": "частимутантов", "base_num": [ 0, 1 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясослепогопса", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_слепого_пса", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -41,7 +99,7 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
     {
@@ -49,8 +107,8 @@
     "type": "harvest",
     "entries": [
       { "drop": "ks_clav_bars", "type": "частимутантов","base_num": [ 0, 4 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясобарсика", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_барсика", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -58,7 +116,7 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
    {
@@ -66,8 +124,8 @@
     "type": "harvest",
     "entries": [
       { "drop": "ks_tail_rat", "type": "частимутантов","base_num": [ 0, 1 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясокрысы", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_крысы", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -75,7 +133,7 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
   {
@@ -84,8 +142,8 @@
     "entries": [
       { "drop": "ks_ears_Psevdogigantrofl","type": "частимутантов", "base_num": [ 0, 2 ] },
 	  { "drop": "ks_leg_Psevdogigantrofl", "type": "частимутантов","base_num": [ 0, 2 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясорофла", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_рофла", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -93,7 +151,7 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
   {
@@ -101,8 +159,8 @@
     "type": "harvest",
     "entries": [
       { "drop": "ks_clav","type": "частимутантов", "base_num": [ 0, 6 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясохимеры", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_химеры", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -110,7 +168,7 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
      {
@@ -118,8 +176,8 @@
     "type": "harvest",
     "entries": [
       { "drop": "ks_arm_Psevdogigant","type": "частимутантов", "base_num": [ 0, 2 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясогиганта", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_гиганта", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -127,7 +185,7 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
   {
@@ -135,8 +193,8 @@
     "type": "harvest",
     "entries": [
       { "drop": "ks_head_tushkan","type": "частимутантов", "base_num": [ 0, 1 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясотушкана", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_тушкана", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -144,7 +202,7 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
   {
@@ -152,8 +210,8 @@
     "type": "harvest",
     "entries": [
       { "drop": "ks_eye_tark","type": "частимутантов", "base_num": [ 0, 2 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясотарка", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_тарка", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -161,16 +219,17 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   },
     {
     "id": "stalker_psevdo_dog_harvest",
     "type": "harvest",
     "entries": [
+	  { "drop": "skull_canis", "type": "bone", "scale_num": [ 1, 1 ], "max": 1 },
       { "drop": "ks_tail_psevdo_dog","type": "частимутантов", "base_num": [ 0, 1 ] },
-	  { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
-      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+	  { "drop": "мясопсевдособаки", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "кусочек_мяса_псевдособаки", "type": "flesh", "mass_ratio": 0.05 },
       { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
       { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
@@ -178,7 +237,7 @@
       { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
-      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+      { "drop": "жир_мутантов_ст", "type": "flesh", "mass_ratio": 0.07 }
     ]
   }
 ]

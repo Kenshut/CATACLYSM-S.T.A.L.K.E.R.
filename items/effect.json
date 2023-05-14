@@ -13,6 +13,85 @@
     "blood_analysis_description": "Аномальное воздействие на организм",
     "rating": "bad"
   },
+  {
+    "type": "effect_type",
+    "id": "радя1д",
+	"name": [ "сука увидь" ],
+    "desc": [ "БЛЯЯЯЯЯЯЯ!!!" ],
+    "base_mods": { "rad_chance": [ 600 ], "rad_min": [ 1 ] },
+	"max_duration": 100800,
+    "blood_analysis_description": "Аномальное воздействие на организм",
+	"max_intensity": 16,
+    "rating": "bad"
+  },
+  {
+    "type": "effect_type",
+    "id": "радяд",
+	"name": [ "сука увидь" ],
+    "rating": "bad",
+    "int_dur_factor": "6 h",
+    "max_intensity": 1,
+    "max_effective_intensity": 1,
+    "max_duration": "1 d",
+    "base_mods": {  "rad_chance": [ 200 ], "rad_min": [ 1 ] },
+    "scaling_mods": { "rad_min": [ 0 ] }
+  },
+  {
+    "type": "effect_type",
+	"name": [ "сука увидь лол" ],
+    "id": "радяд_от_кусочка",
+    "rating": "bad",
+    "int_dur_factor": "6 h",
+    "max_intensity": 1,
+    "max_effective_intensity": 1,
+    "max_duration": "1 d",
+    "base_mods": {  "rad_chance": [ 500 ], "rad_min": [ 1 ] },
+    "scaling_mods": { "rad_min": [ 0 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "радяд_от_жаренного_кусочка",
+    "rating": "bad",
+    "int_dur_factor": "6 h",
+    "max_intensity": 1,
+    "max_effective_intensity": 1,
+    "max_duration": "1 d",
+    "base_mods": {  "rad_chance": [ 1000 ], "rad_min": [ 1 ] },
+    "scaling_mods": { "rad_min": [ 0 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "радяд_от_жира",
+    "rating": "bad",
+    "int_dur_factor": "6 h",
+    "max_intensity": 1,
+    "max_effective_intensity": 1,
+    "max_duration": "1 d",
+    "base_mods": {  "rad_chance": [ 50 ], "rad_min": [ 1 ] },
+    "scaling_mods": { "rad_min": [ 0 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "радяд_от_лярда",
+    "rating": "bad",
+    "int_dur_factor": "6 h",
+    "max_intensity": 1,
+    "max_effective_intensity": 1,
+    "max_duration": "1 d",
+    "base_mods": {  "rad_chance": [ 100 ], "rad_min": [ 1 ] },
+    "scaling_mods": { "rad_min": [ 0 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "радяд_от_жаренного_мяса",
+    "rating": "bad",
+    "int_dur_factor": "6 h",
+    "max_intensity": 1,
+    "max_effective_intensity": 1,
+    "max_duration": "1 d",
+    "base_mods": {  "rad_chance": [ 2000 ], "rad_min": [ 1 ] },
+    "scaling_mods": { "rad_min": [ 0 ] }
+  },
       {
     "type": "effect_type",
     "id": "RADPLYS3",

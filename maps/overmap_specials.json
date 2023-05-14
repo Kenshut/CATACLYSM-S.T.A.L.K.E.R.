@@ -11,6 +11,86 @@
     "city_sizes": [ 0, -1 ],
     "occurrences": [ 0, 1 ]
   },
+   {
+    "type": "overmap_special",
+    "id": "пещеракрови",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "КРОВОСИС" }, 
+	 { "point": [ 0, 0, -1 ], "overmap": "КРОВОСИС1" }
+	],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 2 ],
+	"flags": [ "UNIQUE" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "пещера_снорки",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "снорки" }, 
+	 { "point": [ 0, 0, -1 ], "overmap": "снорки1" }
+	],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 1 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "пещера_химеры",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "химеры" }, 
+	 { "point": [ 0, 0, -1 ], "overmap": "химеры1" }
+	],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 1 ],
+	"flags": [ "UNIQUE" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "пещерабарсика",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "барсик" }, 
+	 { "point": [ 0, 0, -1 ], "overmap": "барсик1" }
+	],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 2 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "пещера_гигант",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "гигант" }, 
+	 { "point": [ 0, 0, -1 ], "overmap": "гигант1" }
+	],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 1 ],
+	"flags": [ "UNIQUE" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "пещера_кабаны_и_плоть",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "кабаны_и_плоть" }, 
+	 { "point": [ 0, 0, -1 ], "overmap": "кабаны_и_плоть1" }
+	],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 2 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "пещеракрысы",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "крысы" }, 
+	 { "point": [ 0, 0, -1 ], "overmap": "крысы1" }
+	],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 2 ]
+  },
   {
     "type": "overmap_special",
     "id": "бункер_сидор",
@@ -23,6 +103,7 @@
     "locations": [ "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 0, -1 ],
-    "occurrences": [ 0, 1 ]
+    "occurrences": [ 0, 1 ],
+    "flags": [ "GLOBALLY_UNIQUE" ]
   }
 ]

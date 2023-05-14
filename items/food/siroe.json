@@ -1,0 +1,565 @@
+[
+  {
+    "id": "мясотушкана",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо тушкана", "str_pl": "мясо тушкана" },
+    "description": "Кусок мяса тушкана. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 500,
+	"price_postapoc": 50,
+    "spoils_in": "1 day",
+    "calories": 198,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясоКРОВОСОСА",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо кровососа", "str_pl": "мясо кровососа" },
+    "description": "Кусок мяса кровососа. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 5000,
+	"price_postapoc": 500,
+    "spoils_in": "1 day",
+    "calories": 504,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясопсевдособаки",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо псевдособаки", "str_pl": "мясо псевдособаки" },
+    "description": "Кусок мяса псевдособаки. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 1000,
+	"price_postapoc": 100,
+    "spoils_in": "1 day",
+    "calories": 302,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясослепогопса",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо слепого пса", "str_pl": "мясо слепого пса" },
+    "description": "Кусок мяса слепого пса. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 500,
+	"price_postapoc": 50,
+    "spoils_in": "1 day",
+    "calories": 302,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясобарсика",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо барсика", "str_pl": "мясо барсика" },
+    "description": "Кусок мяса барсика. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 1000,
+	"price_postapoc": 100,
+    "spoils_in": "1 day",
+    "calories": 302,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясокрысы",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо странной крысы", "str_pl": "мясо странной крысы" },
+    "description": "Кусок мяса странной крысы. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 250,
+	"price_postapoc": 25,
+    "spoils_in": "1 day",
+    "calories": 202,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясотарка",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо тарка", "str_pl": "мясо тарка" },
+    "description": "Кусок мяса тарка. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 2000,
+	"price_postapoc": 200,
+    "spoils_in": "1 day",
+    "calories": 504,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясогиганта",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо псевдогиганта", "str_pl": "мясо псевдогиганта" },
+    "description": "Кусок мяса псевдогиганта. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 5000,
+	"price_postapoc": 500,
+    "spoils_in": "1 day",
+    "calories": 604,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясорофла",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо Псевдочебурашки", "str_pl": "мясо Псевдочебурашки" },
+    "description": "Кусок мяса Псевдочебурашки. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 10000,
+	"price_postapoc": 1000,
+    "spoils_in": "1 day",
+    "calories": 1000,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясохимеры",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо химеры", "str_pl": "мясо химеры" },
+    "description": "Кусок мяса химеры. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 5000,
+	"price_postapoc": 500,
+    "spoils_in": "1 day",
+    "calories": 504,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясоплоти",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо плоти", "str_pl": "мясо плоти" },
+    "description": "Кусок мяса плоти. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 500,
+	"price_postapoc": 50,
+    "spoils_in": "1 day",
+    "calories": 404,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "мясокабана",
+    "copy-from": "flesh",
+    "type": "COMESTIBLE",
+    "name": { "str": "мясо кабана мутанта", "str_pl": "мясо кабана мутанта" },
+    "description": "Кусок мяса кабана мутанта. В сыром виде лучше не употреблять",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "price": 500,
+	"price_postapoc": 50,
+    "spoils_in": "1 day",
+    "calories": 404,
+    "fun": -10,
+    "cooks_like": "meat",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
+    "smoking_result": "meat_smoked",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+   {
+    "id": "мясоснорка",
+    "copy-from": "meat",
+    "type": "COMESTIBLE",
+    "cooks_like": "human_cooked",
+    "name": { "str": "Мясо снорка", "str_pl": "Мясо снорка" },
+    "description": "Кусок мяса снорка. В сыром виде лучше не употреблять. Большинство считает, что поедание снорков равно значно каннибализму.",
+    "material": [ "hflesh" ],
+    "delete": { "flags": [ "PREDATOR_FUN" ] },
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд", "duration": "2 m" } ]}
+  },
+  {
+    "id": "meat_cooked",
+    "copy-from": "flesh",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "spoils_in": "1 day",
+    "type": "COMESTIBLE",
+    "name": { "str": "cooked meat" },
+    "description": "A chunk of cooked meat.  It's filling and nutritious, but unseasoned and a bit bland.",
+    "price": 750,
+    "price_postapoc": 100,
+    "parasites": 0,
+    "calories": 402,
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ]
+  },
+  {
+    "id": "meat_scrap_cooked",
+    "copy-from": "meat_scrap",
+    "type": "COMESTIBLE",
+    "name": { "str": "cooked scrap of meat", "str_pl": "cooked scraps of meat" },
+    "parasites": 0,
+    "fun": 0,
+    "flags": [ "NUTRIENT_OVERRIDE" ],
+    "calories": 51
+  },
+  {
+    "id": "кусочек_мяса_кровососа",
+    "copy-from": "мясоКРОВОСОСА",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса кровососа", "str_pl": "Маленький кусочек мяса кровососа" },
+    "description": "Маленький кусочек мяса кровососа. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_псевдособаки",
+    "copy-from": "мясопсевдособаки",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса псевдособаки", "str_pl": "Маленький кусочек мяса псевдособаки" },
+    "description": "Маленький кусочек мяса псевдособаки. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_слепого_пса",
+    "copy-from": "мясослепогопса",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса слепого пса", "str_pl": "Маленький кусочек мяса слепого пса" },
+    "description": "Маленький кусочек мяса слепого пса. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_барсика",
+    "copy-from": "мясобарсика",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса барсика", "str_pl": "Маленький кусочек мяса барсика" },
+    "description": "Маленький кусочек мяса барсика. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_крысы",
+    "copy-from": "мясокрысы",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса странной крысы", "str_pl": "Маленький кусочек мяса странной крысы" },
+    "description": "Маленький кусочек мяса странной крысы. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_тарка",
+    "copy-from": "мясотарка",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса тарка", "str_pl": "Маленький кусочек мяса тарка" },
+    "description": "Маленький кусочек мяса тарка. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_гиганта",
+    "copy-from": "мясогиганта",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса псевдогиганта", "str_pl": "Маленький кусочек мяса псевдогиганта" },
+    "description": "Маленький кусочек мяса псевдогиганта. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_рофла",
+    "copy-from": "мясорофла",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса Псевдочебурашки", "str_pl": "Маленький кусочек мяса Псевдочебурашки" },
+    "description": "Маленький кусочек мяса Псевдочебурашки. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_химеры",
+    "copy-from": "мясохимеры",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса химеры", "str_pl": "Маленький кусочек мяса химеры" },
+    "description": "Маленький кусочек мяса химеры. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_плоти",
+    "copy-from": "мясоплоти",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса плоти", "str_pl": "Маленький кусочек мяса плоти" },
+    "description": "Маленький кусочек мяса плоти. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_кабана",
+    "copy-from": "мясокабана",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса кабана мутанта", "str_pl": "Маленький кусочек мяса кабана мутанта" },
+    "description": "Маленький кусочек мяса кабана мутанта. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_снорка",
+    "copy-from": "мясоснорка",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса снорка", "str_pl": "Маленький кусочек мяса снорка" },
+    "description": "Маленький кусочек мяса снорка. Есть его сырым не лучшая идея. Большинство считает, что поедание снорков равно значно каннибализму.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "кусочек_мяса_тушкана",
+    "copy-from": "мясотушкана",
+    "type": "COMESTIBLE",
+    "name": { "str": "Маленький кусочек мяса тушкана", "str_pl": "Маленький кусочек мяса тушкана" },
+    "description": "Маленький кусочек мяса тушкана. Есть его сырым не лучшая идея.",
+    "cooks_like": "meat_scrap_cooked",
+    "proportional": { "weight": 0.1, "volume": 0.1, "price_postapoc": 0.1, "calories": 0.1 },
+    "delete": { "flags": [ "SMOKABLE" ] },
+    "vitamins": [ [ "calcium", 0 ], [ "iron", 1 ] ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_кусочка", "duration": "2 m" } ]}
+  },
+  {
+    "id": "жир_снорка",
+    "copy-from": "human_fat",
+    "type": "COMESTIBLE",
+    "name": { "str": "Жир человекоподобного мутанта", "str_pl": "Жир человекоподобного мутанта" },
+    "description": "Кусок лярда человекоподобного мутанта.",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_жира", "duration": "2 m" } ]}
+  },
+  {
+    "id": "жир_мутантов_ст",
+    "copy-from": "fat",
+    "type": "COMESTIBLE",
+    "name": { "str": "Жир мутанта", "str_pl": "Жир мутанта" },
+    "description": "Кусок лярда мутанта.",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_жира", "duration": "2 m" } ]}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "лярд_снорка",
+    "name": { "str": "лярд человекоподобного мутанта" },
+    "copy-from": "tallow",
+    "description": "Кусок лярда человекоподобного мутанта.",
+	"material": [ "hflesh" ],
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_лярда", "duration": "2 m" } ]}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "лярд_мутанта",
+    "name": { "str": "лярд мутанта" },
+    "copy-from": "tallow",
+    "description": "Кусок лярда мутанта.",
+	"use_action": {
+      "type": "consume_drug",
+      
+	"effects": [ { "id": "радяд_от_лярда", "duration": "2 m" } ]}
+  },
+  {
+    "id": "meat_smoked",
+    "copy-from": "meat_cooked",
+    "type": "COMESTIBLE",
+    "name": { "str": "smoked meat" },
+    "conditional_names": [
+      { "type": "FLAG", "condition": "CANNIBALISM", "name": { "str_sp": "smoked sucker" } },
+      { "type": "FLAG", "condition": "STRICT_HUMANITARIANISM", "name": { "str_sp": "smoked Narnian" } },
+      { "type": "COMPONENT_ID_SUBSTRING", "condition": "mutant", "name": { "str_sp": "%s, mutant" } }
+    ],
+    "description": "Tasty meat that has been heavily smoked for preservation.  It could be further smoked to dehydrate it completely.",
+    "color": "brown",
+    "spoils_in": "24 days",
+    "price_postapoc": 200,
+    "quench": -1,
+    "fun": 5,
+    "flags": [ "EATEN_HOT", "SMOKED", "SMOKABLE" ],
+    "smoking_result": "dry_meat"
+  }
+]

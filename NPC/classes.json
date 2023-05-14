@@ -23,7 +23,7 @@
 	"common": false,
     "bonus_str": { "rng": [ 20, 30 ] },
     "job_description": "Даже странно такой вопрос слышать... Ты вроде в Зоне не первый день, а про меня спрашиваешь. Да меня каждая собака в Зоне знает! я самый авторитетный «купи-продай». Если я что-то достать не могу, значит, это вообще нереально..",
-    "traits": [{ "trait": "NIGHTVISION2" }],
+    "traits": [{ "trait": "NIGHTVISION2" },{ "trait": "FACIAL_HAIR_HORSESHOE" },{ "trait": "HAIR_BALD" },{ "trait": "SKIN_LIGHT" }],
 	"weapon_override": "Оружие_монолита",
 	"worn_override": "сидор",
 	"carry_override": "вещи_монолита",

@@ -1,0 +1,52 @@
+[
+{
+    "type": "talk_topic",
+    "id": "сидор",
+    "dynamic_line":{
+	"npc_has_var": "lol_l",
+      "type": "dialogue",
+      "context": "first_meeting",
+      "value": "yes",
+      "yes": "Ну привет",
+      "no": "О! новое лицо"
+	},
+	"speaker_effect": { "effect": { "npc_add_var": "lol_l", "type": "dialogue", "context": "first_meeting", "value": "yes" } },
+    "responses": [ 
+	{ 
+	"text": "Сидоровичь? Ты как вообще здесь оказался?",
+	"topic": "сидороб",
+	"condition": { "not": { "npc_has_var": "knows_u", "type": "dialogue", "context": "first_meeting", "value": "yes" } }
+	},
+	{ "text": "ПОТАРГУЕМ?!", "topic": "TALK_NONE","effect": "start_trade" },
+	{ "text": "А у тебя все еще есть какие нибудь заказы?", "topic": "TALK_MISSION_LIST"},
+	{ "text": "ну я это, пошел.", "topic": "TALK_DONE" }
+	]
+  },
+  {
+    "type": "talk_topic",
+    "id": "сидороб",
+    "dynamic_line": "Ты не представляешь как я был удивлен, как только начался выброс меня выкинуло из моего бункера, в вот этот незнакомый мне бункер.",
+	"speaker_effect": { "effect": { "npc_add_var": "knows_u", "type": "dialogue", "context": "first_meeting", "value": "yes" } },
+    "responses": [ 
+	{ "text": "И что? Ты что ли сидишь тут с момента выброса?", "topic": "сидороб1" },
+	{ "text": "Ясно.", "topic": "TALK_NONE" }
+	]
+  },
+  {
+    "type": "talk_topic",
+    "id": "сидороб1",
+    "dynamic_line": "В этом бункере на удивление много провизии и мне её на долго хватит.",
+    "responses": [ 
+	{ "text": "Ясно.", "topic": "сидор" }
+	]
+  },
+  {
+    "type": "talk_topic",
+    "id": "задания",
+    "dynamic_line": "Вот какие заказы у меня сейчас есть.",
+    "responses": [ 
+	{ "text": "лол", "topic": "TALK_DONE" },
+	{ "text": "Ясно.", "topic": "TALK_NONE" }
+	]
+  }
+]
