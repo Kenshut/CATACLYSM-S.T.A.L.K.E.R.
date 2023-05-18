@@ -37,31 +37,5 @@
         "u_message": "Сложность установлена на нормальную. "
       }
 	]
-  },
-  {
-    "//": "This one is for NPC followers.  There might be a better alternative.",
-    "type": "effect_on_condition",
-    "id": "EOC_REMOVE_SKILL_RUST_ON_KILL",
-    "eoc_type": "EVENT",
-    "required_event": "character_kills_monster",
-    "effect": [
-      {
-        "u_message": "Ты убил его",
-        "popup": true
-      }
-    ]
-  },
-  {
-    "//": "This one is for NPC followers.  There might be a better alternative.",
-    "type": "effect_on_condition",
-    "id": "убивица",
-    "eoc_type": "EVENT",
-    "required_event": "character_kills_monster",
-    "effect": [
-     {
-        "u_message": "Ты убил его",
-        "popup": true
-      }
-    ]
   }
 ]
