@@ -4,7 +4,7 @@
 "Cataclysm: S.T.A.L.K.E.R." Это преображение обычного "катаклизма: темные дни в переди" в мир с сталкерской тематикой
 
 <a>
-    <img src="https://raw.githubusercontent.com/Kenshut/CATACLYSM-S.T.A.L.K.E.R./main/stal.png" alt="Packaging Status" align="right">
+    <img src="https://raw.githubusercontent.com/Kenshut/CATACLYSM-S.T.A.L.K.E.R./main/liar.jpg" alt="Packaging Status" align="right">
 </a>
 
 # где можно узнать процесс разработки мода?
