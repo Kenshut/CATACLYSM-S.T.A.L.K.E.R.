@@ -5,8 +5,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "КРОВОСИС1",
@@ -14,8 +13,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "барсик",
@@ -23,8 +21,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "барсик1",
@@ -32,8 +29,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "крысы",
@@ -41,8 +37,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "крысы1",
@@ -50,8 +45,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "кабаны_и_плоть",
@@ -59,8 +53,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "кабаны_и_плоть1",
@@ -68,8 +61,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "гигант",
@@ -77,8 +69,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "гигант1",
@@ -86,8 +77,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "снорки",
@@ -95,8 +85,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "снорки1",
@@ -104,8 +93,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "химеры",
@@ -113,8 +101,7 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
-    "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+    "see_cost": 2
   },
   {
     "id": "химеры1",
@@ -122,8 +109,34 @@
     "name": "пещера",
     "sym": "C",
     "color": "red",
+    "see_cost": 2
+  },
+  {
+    "id": "домик",
+    "type": "overmap_terrain",
+    "name": "Дом",
+    "sym": "V",
+    "color": "green",
     "see_cost": 2,
-	 "flags": [  "NO_ROTATE" ]
+	"flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "домикс",
+    "type": "overmap_terrain",
+    "name": "Дом",
+    "sym": "V",
+    "color": "green",
+    "see_cost": 2,
+	"flags": [  "NO_ROTATE" ]
+  },
+  {
+    "id": "тропинка",
+    "type": "overmap_terrain",
+    "name": "тропинка",
+    "sym": "—",
+    "color": "brown",
+    "see_cost": 2,
+	"flags": [  "NO_ROTATE" ]
   },
   {
     "id": "бункер",

@@ -12,8 +12,6 @@
     "material": [ "kevlar_layered" ],
     "weight": "50 g",
     "volume": "50 ml",
-    "bashing": 5,
-    "to_hit": -1,
     "flags": [ "IS_PET_ARMOR", "NO_SALVAGE" ],
     "material_thickness": 2.0,
     "max_pet_vol": "600 L",

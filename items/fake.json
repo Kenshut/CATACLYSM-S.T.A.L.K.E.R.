@@ -12,7 +12,7 @@
     "techniques": [ "WBLOCK_2" ],
     "volume": "750 ml",
     "longest_side": "30 cm",
-    "cutting": 50,
+    "melee_damage": { "bash": 4, "cut": 50 },
     "flags": [ "BIONIC_WEAPON", "UNBREAKABLE_MELEE", "TRADER_AVOID","PSEUDO"  ],
 	"weapon_category": [ "BIONIC_WEAPONRY", "BIONIC_SWORDS" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 30 ] ]

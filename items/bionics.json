@@ -5,9 +5,12 @@
     "name": { "str": "Броня О-Сознания для рук" },
     "description": "Броня от О-сознания для рук, создана из артефактного материала (Металючька).",
     "occupied_bodyparts": [ [ "arm_l", 4 ], [ "arm_r", 4 ] ],
-    "bash_protec": [ [ "arm_l", 10 ], [ "arm_r", 10 ] ],
-    "cut_protec": [ [ "arm_l", 10 ], [ "arm_r", 10 ] ],
-    "bullet_protec": [ [ "arm_l", 10 ], [ "arm_r", 10 ] ],
+	"protec": [
+      [ "arm_l", { "bash": 10, "cut": 10, "bullet": 10 } ],
+      [ "arm_r", { "bash": 10, "cut": 10, "bullet": 10 } ],
+      [ "hand_l", { "bash": 10, "cut": 10, "bullet": 10 } ],
+      [ "hand_r", { "bash": 10, "cut": 10, "bullet": 10 } ]
+    ],
 	 "social_modifiers": { "intimidate": 10 },
     "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
   },
@@ -17,10 +20,10 @@
     "name": { "str": "Броня О-Сознания для глаз" },
     "description": "Броня от О-сознания для глаз, создана из артефактного материала (Металючька).",
     "occupied_bodyparts": [ [ "eyes", 2 ] ],
+	"protec": [
+      [ "eyes", { "bash": 6, "cut": 6, "bullet": 6 } ]
+    ],
     "env_protec": [ [ "eyes", 14 ] ],
-    "bash_protec": [ [ "eyes", 6 ] ],
-    "cut_protec": [ [ "eyes", 6 ] ],
-    "bullet_protec": [ [ "eyes", 6 ] ],
     "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ],
     "social_modifiers": { "intimidate": 12 }
   },
@@ -30,9 +33,9 @@
     "name": { "str": "Броня О-Сознания для головы" },
     "description": "Броня от О-сознания для головы, создана из артефактного материала (Металючька).",
     "occupied_bodyparts": [ [ "head", 7 ], [ "mouth", 2 ] ],
-    "bash_protec": [ [ "head", 10 ] ],
-    "cut_protec": [ [ "head", 10 ] ],
-    "bullet_protec": [ [ "head", 10 ] ],
+	"protec": [
+      [ "eyes", { "bash": 10, "cut": 10, "bullet": 10 } ]
+    ],
 	"social_modifiers": { "intimidate": 10 },
     "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
   },
@@ -42,9 +45,10 @@
     "name": { "str": "Броня О-Сознания для ног" },
     "description": "Броня от О-сознания для ног, создана из артефактного материала (Металючька).",
     "occupied_bodyparts": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ],
-    "bash_protec": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ],
-    "cut_protec": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ],
-    "bullet_protec": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ],
+	"protec": [
+      [ "leg_l", { "bash": 10, "cut": 10, "bullet": 10 } ],
+      [ "leg_r", { "bash": 10, "cut": 10, "bullet": 10 } ]
+    ],
 	"social_modifiers": { "intimidate": 10 },
     "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
   },
@@ -54,9 +58,9 @@
     "name": { "str": "Броня О-Сознания для тела" },
     "description": "Броня от О-сознания для тела, создана из артефактного материала (Металючька).",
     "occupied_bodyparts": [ [ "torso", 15 ] ],
-    "bash_protec": [ [ "torso", 10 ] ],
-    "cut_protec": [ [ "torso", 10 ] ],
-    "bullet_protec": [ [ "torso", 10 ] ],
+	"protec": [
+      [ "torso", { "bash": 10, "cut": 10, "bullet": 10 } ]
+    ],
 	"social_modifiers": { "intimidate": 10 },
     "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
   },
@@ -87,41 +91,17 @@
       [ "foot_l", 1 ],
       [ "foot_r", 1 ]
     ],
-    "bash_protec": [
-      [ "torso", 3 ],
-      [ "head", 3 ],
-      [ "arm_l", 3 ],
-      [ "arm_r", 3 ],
-      [ "hand_l", 3 ],
-      [ "hand_r", 3 ],
-      [ "leg_l", 3 ],
-      [ "leg_r", 3 ],
-      [ "foot_l", 3 ],
-      [ "foot_r", 3 ]
-    ],
-    "cut_protec": [
-      [ "torso", 5 ],
-      [ "head", 5 ],
-      [ "arm_l", 5 ],
-      [ "arm_r", 5 ],
-      [ "hand_l", 5 ],
-      [ "hand_r", 5 ],
-      [ "leg_l", 5 ],
-      [ "leg_r", 5 ],
-      [ "foot_l", 5 ],
-      [ "foot_r", 5 ]
-    ],
-    "bullet_protec": [
-      [ "torso", 5 ],
-      [ "head", 5 ],
-      [ "arm_l", 5 ],
-      [ "arm_r", 5 ],
-      [ "hand_l", 5 ],
-      [ "hand_r", 5 ],
-      [ "leg_l", 5 ],
-      [ "leg_r", 5 ],
-      [ "foot_l", 5 ],
-      [ "foot_r", 5 ]
+	"protec": [
+      [ "torso", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "head", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "arm_l", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "arm_r", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "hand_l", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "hand_r", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "leg_l", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "leg_r", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "foot_l", { "bash": 3, "cut": 3, "bullet": 3 } ],
+	  [ "foot_r", { "bash": 3, "cut": 3, "bullet": 3 } ]
     ],
     "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
   },

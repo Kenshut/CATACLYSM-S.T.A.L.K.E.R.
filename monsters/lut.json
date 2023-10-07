@@ -56,7 +56,7 @@
           { "group": "дробовик", "contents-item": "shoulder_strap", "prob": 75, "damage": [ 1, 4 ] }
         ]
       },
-      { "items": "adhesive_bandages", "prob": 30 }
+      { "item": "adhesive_bandages", "prob": 30 }
     ]
   },
   {
@@ -76,7 +76,7 @@
           { "group": "пистол", "contents-item": "shoulder_strap", "prob": 75, "damage": [ 1, 4 ] }
         ]
       },
-      { "items": "adhesive_bandages", "prob": 30 }
+      { "item": "adhesive_bandages", "prob": 30 }
     ]
   },
   {
@@ -96,7 +96,7 @@
           { "group": "дробовик", "contents-item": "shoulder_strap", "prob": 75, "damage": [ 1, 4 ] }
         ]
       },
-      { "items": "adhesive_bandages", "prob": 30 }
+      { "item": "adhesive_bandages", "prob": 30 }
     ]
   },
   {
@@ -116,7 +116,7 @@
           { "group": "пистол", "contents-item": "shoulder_strap", "prob": 75, "damage": [ 1, 4 ] }
         ]
       },
-      { "items": "adhesive_bandages", "prob": 30 }
+      { "item": "adhesive_bandages", "prob": 30 }
     ]
   },
   {

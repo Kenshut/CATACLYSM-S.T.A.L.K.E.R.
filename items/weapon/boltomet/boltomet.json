@@ -12,7 +12,7 @@
     "price": 140000,
     "price_postapoc": 500,
     "to_hit": -2,
-    "bashing": 6,
+	"melee_damage": { "bash": 6 },
     "material": [ "Магнетэк", "Металючька","bone" ],
     "symbol": "(",
     "color": "yellow",

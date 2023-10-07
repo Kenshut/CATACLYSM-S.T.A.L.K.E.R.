@@ -7,7 +7,7 @@
     "description": "Вы немного знаете как работать с артефактами.",
     "can_learn": true,
     "default_time_multiplier": 1.5,
-    "default_fail_multiplier": 1.8,
+    "default_skill_penalty": 1.8,
     "time_to_learn": "8 h"
   },
     {
@@ -18,7 +18,7 @@
     "description": "Вы знаете как быстро работать с артефактами.",
     "can_learn": true,
     "default_time_multiplier": 2,
-    "default_fail_multiplier": 1.8,
+    "default_skill_penalty": 1.8,
     "time_to_learn": "8 h",
 	    "required_proficiencies": [ "prof_arts" ]
   },
@@ -30,7 +30,7 @@
     "description": "Вы знаете как воздействовать на артефакты, чтобы они давали более лучший результат.",
     "can_learn": true,
     "default_time_multiplier": 1.2,
-    "default_fail_multiplier": 1.8,
+    "default_skill_penalty": 1.8,
     "time_to_learn": "8 h",
 	    "required_proficiencies": [ "prof_arts2" ]
   },
@@ -42,7 +42,7 @@
     "description": "Вы знаете как быстро работать с частями тел мутантов.",
     "can_learn": true,
     "default_time_multiplier": 1.5,
-    "default_fail_multiplier": 1.8,
+    "default_skill_penalty": 1.8,
     "time_to_learn": "8 h",
 	"required_proficiencies": [ "prof_mutants" ]
   },
@@ -54,7 +54,7 @@
     "description": "Вы немного знаете как работать с частями тел мутантов.",
     "can_learn": true,
     "default_time_multiplier": 1.5,
-    "default_fail_multiplier": 1.8,
+    "default_skill_penalty": 1.8,
     "time_to_learn": "8 h"
   },
   {
@@ -65,7 +65,7 @@
     "description": "Вы немного знаете анатомию тушканов.",
     "can_learn": true,
     "default_time_multiplier": 1.5,
-    "default_fail_multiplier": 1.8,
+    "default_skill_penalty": 1.8,
     "time_to_learn": "8 h"
   }
 ]

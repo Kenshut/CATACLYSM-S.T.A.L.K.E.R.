@@ -11,12 +11,11 @@
     "price": 2000,
     "price_postapoc": 50,
     "to_hit": -2,
-    "cutting": 16,
+	"melee_damage": { "bash": 3},
     "material": [ "steel"],
     "symbol": ";",
     "color": "dark_gray",
-    "qualities": [ [ "ks_ARTCRAFT", 1 ]],
-    "flags": [ "STAB" ]
+    "qualities": [ [ "ks_ARTCRAFT", 1 ]]
   },
     {
     "id": "craft_art1",
@@ -31,12 +30,11 @@
     "price": 4000,
     "price_postapoc": 100,
     "to_hit": -2,
-    "cutting": 16,
+    "melee_damage": { "bash": 3},
     "material": [ "steel"],
     "symbol": ";",
     "color": "dark_gray",
-    "qualities": [ [ "ks_ARTCRAFT", 2 ]],
-    "flags": [ "STAB" ]
+    "qualities": [ [ "ks_ARTCRAFT", 2 ]]
   },
     {
     "id": "craft_arts",
@@ -51,11 +49,10 @@
     "price": 2000,
     "price_postapoc": 50,
     "to_hit": -2,
-    "cutting": 16,
+    "melee_damage": { "bash": 3},
     "material": [ "steel", "plastic" ],
     "symbol": ";",
     "color": "dark_gray",
-    "qualities": [ [ "ks_arts", 1 ]],
-    "flags": [ "STAB" ]
+    "qualities": [ [ "ks_arts", 1 ]]
   }
 ]

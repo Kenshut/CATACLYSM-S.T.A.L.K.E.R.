@@ -10,9 +10,7 @@
     "longest_side": "30 cm",
     "price": 10000,
     "price_postapoc": 10000,
-    "bashing": 4,
-	 
-    "cutting": 40,
+	"melee_damage": { "bash": 4, "cut": 40 },
     "material": [ "bone", "wood" ],
     "symbol": "/",
     "color": "dark_gray",
@@ -26,7 +24,7 @@
     "techniques": [ "RAPID", "WBLOCK_1" ],
     "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 30 ] ],
     "thrown_damage": [ { "damage_type": "stab", "amount": 20 } ],
-    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
+    "flags": [  "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
   },
   {
     "id": "himera_knife1",
@@ -39,9 +37,7 @@
     "longest_side": "30 cm",
     "price": 10000,
     "price_postapoc": 10000,
-    "bashing": 4,
-	 
-    "cutting": 40,
+	"melee_damage": { "bash": 4, "cut": 50 },
     "material": [ "bone", "wood" ],
     "symbol": "/",
     "color": "dark_gray",
@@ -55,8 +51,7 @@
     "techniques": [ "RAPID", "WBLOCK_1" ],
     "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 30 ] ],
     "thrown_damage": [ { "damage_type": "stab", "amount": 20 } ],
-	"effects": [ { "id": "bleed", "duration": 700, "affect_hit_bp": true } ],
-    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
+    "flags": [  "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
   },
   {
     "id": "barsik_knife",
@@ -69,9 +64,7 @@
     "longest_side": "30 cm",
     "price": 60000,
     "price_postapoc": 60000,
-    "bashing": 4,
-    "cutting": 12,
-	 
+	"melee_damage": { "bash": 4, "cut": 12 },
     "material": [ "bone", "wood" ],
     "symbol": "/",
     "color": "dark_gray",
@@ -85,6 +78,6 @@
     "techniques": [ "RAPID", "WBLOCK_1" ],
     "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 15 ] ],
     "thrown_damage": [ { "damage_type": "stab", "amount": 9 } ],
-    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
+    "flags": [  "DURABLE_MELEE", "SHEATH_KNIFE", "NO_CVD" ]
   }
 ]

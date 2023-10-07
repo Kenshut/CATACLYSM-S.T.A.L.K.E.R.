@@ -12,5 +12,11 @@
     "skills": [ "Артифактное_оружие"],
     "skill_offset": -3,
     "scaling_power": 0.4
+  },
+  {
+    "type": "start_location",
+    "id": "деревня",
+    "name": "Деревня",
+    "terrain": [ "домик" ]
   }
 ]
