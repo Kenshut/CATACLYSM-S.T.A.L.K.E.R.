@@ -1,7 +1,7 @@
-# РАБОТАЕТ ТОЛЬКО В Cataclysm:dark day ahead 0.G. Так же мод смог работать на версии 2023-04-01, версии выше могут не работать или выдавать ошибки
+# РАБОТАЕТ ТОЛЬКО В Cataclysm:Era of decay
 # Cataclysm: S.T.A.L.K.E.R.
 
-"Cataclysm: S.T.A.L.K.E.R." Это преображение обычного "катаклизма: темные дни в переди" в мир с сталкерской тематикой
+"Cataclysm: S.T.A.L.K.E.R." Это преображение обычного "катаклизма" в мир с сталкерской тематикой
 
 <a>
     <img src="https://raw.githubusercontent.com/Kenshut/CATACLYSM-S.T.A.L.K.E.R./main/stal.png" alt="Packaging Status" align="right">
